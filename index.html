@@ -100,6 +100,7 @@ button:hover p::before, button.active p::before {
   <div id="inventory" class="grid"></div>  
 
   <div class="edit-buttons">
+    <button onclick="sortByStock()">📊 Sort by Stock</button>
     <button id="edit-btn" onclick="toggleEdit()">✏️ Edit Stock</button>
     <button id="download-btn" onclick="downloadJSON()" style="display: none;">💾 Download Updated JSON</button>
   </div>
@@ -135,9 +136,6 @@ button:hover p::before, button.active p::before {
   
         // Save the data globally
         currentData = data;
-  
-        // Sort by stock descending
-        data.sort((a, b) => b.stock - a.stock);
   
         renderInventory();
       } catch (err) {
@@ -194,6 +192,12 @@ button:hover p::before, button.active p::before {
   
     // Load initial file
     loadStock('amigurumi.json');
+
+    function sortByStock() {
+      currentData.sort((a, b) => b.stock - a.stock);
+      renderInventory();
+    }
+
   </script>
   
 </body>
