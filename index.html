@@ -75,27 +75,34 @@ button:hover p::before, button.active p::before {
   width: 100%;
 }
 
+.edit-buttons {
+    margin-top: 1em;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
   </style>
 </head>
 <body>
 
   <h1>🧶 Yarn Inventory</h1>
 
-  <div style="margin-bottom: 1em;">
-    <button id="edit-btn" onclick="toggleEdit()">✏️ Edit Stock</button>
-    <button id="download-btn" onclick="downloadJSON()" style="display: none;">💾 Download Updated JSON</button>
-  </div>
-
   <div class="buttons">
     <button onclick="loadStock('amigurumi.json')">Amigurumi</button>
     <button onclick="loadStock('barroco.json')">Barroco</button>
-    <button onclick="loadStock('cleaDuplo.json')">Clea Duplo</button>
+    <button onclick="loadStock('clea-duplo.json')">Clea Duplo</button>
     <button onclick="loadStock('charme.json')">Charme</button>
     <button onclick="loadStock('encanto.json')">Encanto</button>
     <!-- Add more as needed -->
   </div>
 
-  <div id="inventory" class="grid"></div>
+  <div id="inventory" class="grid"></div>  
+
+  <div class="edit-buttons">
+    <button id="edit-btn" onclick="toggleEdit()">✏️ Edit Stock</button>
+    <button id="download-btn" onclick="downloadJSON()" style="display: none;">💾 Download Updated JSON</button>
+  </div>
 
   <script>
     let currentData = [];
