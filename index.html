@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Yarn Inventory</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #fefefe; }
+    h1 { text-align: center; }
+    .controls { text-align: center; margin-bottom: 20px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+    .yarn {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      background: white;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .yarn img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .name { font-weight: bold; margin-top: 10px; }
+    .stock-input {
+      margin-top: 5px;
+      width: 60px;
+      text-align: center;
+    }
+    button {
+      padding: 8px 12px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 6px;
+      background: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #43a047;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧶 My Yarn Inventory</h1>
+
+  <div class="controls">
+    <button onclick="sortByStock()">Sort by Stock</button>
+    <button onclick="downloadUpdatedStock()">Download Updated JSON</button>
+  </div>
+
+  <div class="grid" id="inventory"></div>
+
+  <script>
+    let yarnData = [];
+
+    function renderInventory() {
+      const grid = document.getElementById('inventory');
+      grid.innerHTML = '';
+      yarnData.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'yarn';
+        div.innerHTML = `
+          <img src="${item.image}" alt="${item.name}">
+          <div class="name">${item.name}</div>
+          <div>Stock: 
+            <input type="number" class="stock-input" min="0" value="${item.stock}" 
+              onchange="updateStock(${index}, this.value)">
+          </div>
+        `;
+        grid.appendChild(div);
+      });
+    }
+
+    function updateStock(index, value) {
+      yarnData[index].stock = parseInt(value) || 0;
+    }
+
+    function sortByStock() {
+      yarnData.sort((a, b) => b.stock - a.stock);
+      renderInventory();
+    }
+
+    function downloadUpdatedStock() {
+      const dataStr = JSON.stringify(yarnData, null, 2);
+      const blob = new Blob([dataStr], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'stock.json';
+      link.click();
+    }
+
+    // Initial load
+    fetch('stock.json')
+      .then(response => response.json())
+      .then(data => {
+        yarnData = data;
+        sortByStock(); // sort before first render
+      })
+      .catch(err => {
+        document.getElementById('inventory').innerHTML = '<p>Error loading inventory.</p>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

@@ -1,8 +1,502 @@
 [
-    {
-      "name": "Rose Pink",
-      "image": "images/8001.jpg",
-      "stock": 5
-    }
-  ]
-  
+  {
+    "name": "8001 - BRANCO",
+    "image": "images/8001 - BRANCO.png",
+    "stock": 0
+  },
+  {
+    "name": "8176 - OFF-WHITE",
+    "image": "images/8176 - OFF-WHITE.png",
+    "stock": 0
+  },
+  {
+    "name": "20 - NATURAL",
+    "image": "images/20 - NATURAL.png",
+    "stock": 0
+  },
+  {
+    "name": "3061 - GARDÊNIA",
+    "image": "images/3061 - GARDÊNIA.png",
+    "stock": 0
+  },
+  {
+    "name": "7564 - PORCELANA",
+    "image": "images/7564 - PORCELANA.png",
+    "stock": 0
+  },
+  {
+    "name": "7563 - CHANTILLY",
+    "image": "images/7563 - CHANTILLY.png",
+    "stock": 0
+  },
+  {
+    "name": "7650 - AMÊNDOA",
+    "image": "images/7650 - AMÊNDOA.png",
+    "stock": 0
+  },
+  {
+    "name": "7625 - CASTANHA",
+    "image": "images/7625 - CASTANHA.png",
+    "stock": 0
+  },
+  {
+    "name": "7066 - PEDRA QUENTE",
+    "image": "images/7066 - PEDRA QUENTE.png",
+    "stock": 0
+  },
+  {
+    "name": "7603 - CASTOR",
+    "image": "images/7603 - CASTOR.png",
+    "stock": 0
+  },
+  {
+    "name": "7713 - LENHA",
+    "image": "images/7713 - LENHA.png",
+    "stock": 0
+  },
+  {
+    "name": "7567 - CACAU",
+    "image": "images/7567 - CACAU.png",
+    "stock": 0
+  },
+  {
+    "name": "7569 - BRIGADEIRO",
+    "image": "images/7569 - BRIGADEIRO.png",
+    "stock": 0
+  },
+  {
+    "name": "7400 - BROWNIE",
+    "image": "images/7400 - BROWNIE.png",
+    "stock": 0
+  },
+  {
+    "name": "7220 - TÂMARA",
+    "image": "images/7220 - TÂMARA.png",
+    "stock": 0
+  },
+  {
+    "name": "7148 - CRAFT",
+    "image": "images/7148 - CRAFT.png",
+    "stock": 0
+  },
+  {
+    "name": "7077 - DOCE DE LEITE",
+    "image": "images/7077 - DOCE DE LEITE.png",
+    "stock": 0
+  },
+  {
+    "name": "7030 - MOSTARDA",
+    "image": "images/7030 - MOSTARDA.png",
+    "stock": 0
+  },
+  {
+    "name": "7076 - CARAMELITO",
+    "image": "images/7076 - CARAMELITO.png",
+    "stock": 0
+  },
+  {
+    "name": "7072 - CENTEIO",
+    "image": "images/7072 - CENTEIO.png",
+    "stock": 0
+  },
+  {
+    "name": "1112 - CREME",
+    "image": "images/1112 - CREME.png",
+    "stock": 0
+  },
+  {
+    "name": "1730 - AMARELO-CANDY",
+    "image": "images/1730 - AMARELO-CANDY.png",
+    "stock": 0
+  },
+  {
+    "name": "1317 - SOLAR",
+    "image": "images/1317 - SOLAR.png",
+    "stock": 0
+  },
+  {
+    "name": "1205 - MAGNÓLIA",
+    "image": "images/1205 - MAGNÓLIA.png",
+    "stock": 0
+  },
+  {
+    "name": "1289 - CANÁRIO",
+    "image": "images/1289 - CANÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "4146 - GEMA",
+    "image": "images/4146 - GEMA.png",
+    "stock": 0
+  },
+  {
+    "name": "4131 - DARK CHEDDAR",
+    "image": "images/4131 - DARK CHEDDAR.png",
+    "stock": 0
+  },
+  {
+    "name": "4095 - RUM",
+    "image": "images/4095 - RUM.png",
+    "stock": 0
+  },
+  {
+    "name": "4448 - TIJOLO",
+    "image": "images/4448 - TIJOLO.png",
+    "stock": 0
+  },
+  {
+    "name": "4093 - TAFETÁ",
+    "image": "images/4093 - TAFETÁ.png",
+    "stock": 0
+  },
+  {
+    "name": "4171 - TROPICÁLIA",
+    "image": "images/4171 - TROPICÁLIA.png",
+    "stock": 0
+  },
+  {
+    "name": "4168 - DÁLIA",
+    "image": "images/4168 - DÁLIA.png",
+    "stock": 0
+  },
+  {
+    "name": "4456 - LARANJA",
+    "image": "images/4456 - LARANJA.png",
+    "stock": 0
+  },
+  {
+    "name": "4445 - TANGERINA",
+    "image": "images/4445 - TANGERINA.png",
+    "stock": 0
+  },
+  {
+    "name": "3583 - CEREJA",
+    "image": "images/3583 - CEREJA.png",
+    "stock": 0
+  },
+  {
+    "name": "3402 - VERMELHO-CÍRCULO",
+    "image": "images/3402 - VERMELHO-CÍRCULO.png",
+    "stock": 0
+  },
+  {
+    "name": "3528 - CARMIM",
+    "image": "images/3528 - CARMIM.png",
+    "stock": 0
+  },
+  {
+    "name": "7078 - PIMENTA ROSA",
+    "image": "images/7078 - PIMENTA ROSA.png",
+    "stock": 0
+  },
+  {
+    "name": "7136 - MARSALA",
+    "image": "images/7136 - MARSALA.png",
+    "stock": 0
+  },
+  {
+    "name": "3611 - RUBI",
+    "image": "images/3611 - RUBI.png",
+    "stock": 0
+  },
+  {
+    "name": "3951 - VIVA MAGENTA",
+    "image": "images/3951 - VIVA MAGENTA.png",
+    "stock": 0
+  },
+  {
+    "name": "3754 - ROSA PINK",
+    "image": "images/3754 - ROSA PINK.png",
+    "stock": 0
+  },
+  {
+    "name": "3334 - TULIPA",
+    "image": "images/3334 - TULIPA.png",
+    "stock": 0
+  },
+  {
+    "name": "3048 - FLAMINGO",
+    "image": "images/3048 - FLAMINGO.png",
+    "stock": 0
+  },
+  {
+    "name": "3182 - PITAYA",
+    "image": "images/3182 - PITAYA.png",
+    "stock": 0
+  },
+  {
+    "name": "3131 - CHICLETE",
+    "image": "images/3131 - CHICLETE.png",
+    "stock": 0
+  },
+  {
+    "name": "3077 - QUARTZO",
+    "image": "images/3077 - QUARTZO.png",
+    "stock": 0
+  },
+  {
+    "name": "3046 - DOÇURA",
+    "image": "images/3046 - DOÇURA.png",
+    "stock": 0
+  },
+  {
+    "name": "3148 - MACADÂMIA",
+    "image": "images/3148 - MACADÂMIA.png",
+    "stock": 0
+  },
+  {
+    "name": "4224 - PEACH FUZZ",
+    "image": "images/4224 - PEACH FUZZ.png",
+    "stock": 0
+  },
+  {
+    "name": "3047 - SOPRO",
+    "image": "images/3047 - SOPRO.png",
+    "stock": 0
+  },
+  {
+    "name": "4092 - ORGANZA",
+    "image": "images/4092 - ORGANZA.png",
+    "stock": 0
+  },
+  {
+    "name": "4094 - CETIM",
+    "image": "images/4094 - CETIM.png",
+    "stock": 0
+  },
+  {
+    "name": "3201 - CAMAFEU",
+    "image": "images/3201 - CAMAFEU.png",
+    "stock": 0
+  },
+  {
+    "name": "3157 - ROSEIRA",
+    "image": "images/3157 - ROSEIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "6161 - VIOLETA",
+    "image": "images/6161 - VIOLETA.png",
+    "stock": 0
+  },
+  {
+    "name": "6802 - MALVA",
+    "image": "images/6802 - MALVA.png",
+    "stock": 0
+  },
+  {
+    "name": "6006 - LILÁS-CANDY",
+    "image": "images/6006 - LILÁS-CANDY.png",
+    "stock": 0
+  },
+  {
+    "name": "6399 - AZALEIA",
+    "image": "images/6399 - AZALEIA.png",
+    "stock": 0
+  },
+  {
+    "name": "6034 - REALEZA",
+    "image": "images/6034 - REALEZA.png",
+    "stock": 0
+  },
+  {
+    "name": "6614 - ALFAZEMA",
+    "image": "images/6614 - ALFAZEMA.png",
+    "stock": 0
+  },
+  {
+    "name": "3154 - VINHO",
+    "image": "images/3154 - VINHO.png",
+    "stock": 0
+  },
+  {
+    "name": "6030 - MÍSTICO",
+    "image": "images/6030 - MÍSTICO.png",
+    "stock": 0
+  },
+  {
+    "name": "6201 - TECNO",
+    "image": "images/6201 - TECNO.png",
+    "stock": 0
+  },
+  {
+    "name": "2931 - NÁUTICO",
+    "image": "images/2931 - NÁUTICO.png",
+    "stock": 0
+  },
+  {
+    "name": "2930 - NETUNO",
+    "image": "images/2930 - NETUNO.png",
+    "stock": 0
+  },
+  {
+    "name": "2927 - AQUÁRIO",
+    "image": "images/2927 - AQUÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "2012 - AZUL-CANDY",
+    "image": "images/2012 - AZUL-CANDY.png",
+    "stock": 0
+  },
+  {
+    "name": "2137 - HORTÊNSIA",
+    "image": "images/2137 - HORTÊNSIA.png",
+    "stock": 0
+  },
+  {
+    "name": "2500 - ACQUA",
+    "image": "images/2500 - ACQUA.png",
+    "stock": 0
+  },
+  {
+    "name": "2194 - TURQUESA",
+    "image": "images/2194 - TURQUESA.png",
+    "stock": 0
+  },
+  {
+    "name": "2618 - PLANETA",
+    "image": "images/2618 - PLANETA.png",
+    "stock": 0
+  },
+  {
+    "name": "2829 - AZUL-BIC",
+    "image": "images/2829 - AZUL-BIC.png",
+    "stock": 0
+  },
+  {
+    "name": "2745 - MARINHEIRO",
+    "image": "images/2745 - MARINHEIRO.png",
+    "stock": 0
+  },
+  {
+    "name": "2856 - ANIL-PROFUNDO",
+    "image": "images/2856 - ANIL-PROFUNDO.png",
+    "stock": 0
+  },
+  {
+    "name": "5073 - PETRÓLEO",
+    "image": "images/5073 - PETRÓLEO.png",
+    "stock": 0
+  },
+  {
+    "name": "5076 - HERA",
+    "image": "images/5076 - HERA.png",
+    "stock": 0
+  },
+  {
+    "name": "5398 - MUSGO",
+    "image": "images/5398 - MUSGO.png",
+    "stock": 0
+  },
+  {
+    "name": "5767 - BANDEIRA",
+    "image": "images/5767 - BANDEIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "5669 - TIFFANY",
+    "image": "images/5669 - TIFFANY.png",
+    "stock": 0
+  },
+  {
+    "name": "5091 - CELESTE",
+    "image": "images/5091 - CELESTE.png",
+    "stock": 0
+  },
+  {
+    "name": "5743 - NEO MINT",
+    "image": "images/5743 - NEO MINT.png",
+    "stock": 0
+  },
+  {
+    "name": "2204 - VERDE-CANDY",
+    "image": "images/2204 - VERDE-CANDY.png",
+    "stock": 0
+  },
+  {
+    "name": "5741 - PERIQUITO",
+    "image": "images/5741 - PERIQUITO.png",
+    "stock": 0
+  },
+  {
+    "name": "5806 - LIMONADA",
+    "image": "images/5806 - LIMONADA.png",
+    "stock": 0
+  },
+  {
+    "name": "5583 - VERDE LIMÃO",
+    "image": "images/5583 - VERDE LIMÃO.png",
+    "stock": 0
+  },
+  {
+    "name": "5203 - GREENERY",
+    "image": "images/5203 - GREENERY.png",
+    "stock": 0
+  },
+  {
+    "name": "5800 - PISTACHE",
+    "image": "images/5800 - PISTACHE.png",
+    "stock": 0
+  },
+  {
+    "name": "5089 - SELVA",
+    "image": "images/5089 - SELVA.png",
+    "stock": 0
+  },
+  {
+    "name": "5368 - MILITAR",
+    "image": "images/5368 - MILITAR.png",
+    "stock": 0
+  },
+  {
+    "name": "5083 - ECO",
+    "image": "images/5083 - ECO.png",
+    "stock": 0
+  },
+  {
+    "name": "5745 - EUCALIPTO",
+    "image": "images/5745 - EUCALIPTO.png",
+    "stock": 0
+  },
+  {
+    "name": "8013 - GLACIAL",
+    "image": "images/8013 - GLACIAL.png",
+    "stock": 0
+  },
+  {
+    "name": "8008 - PEDREIRA",
+    "image": "images/8008 - PEDREIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "8797 - AÇO",
+    "image": "images/8797 - AÇO.png",
+    "stock": 0
+  },
+  {
+    "name": "8069 - MATRIX",
+    "image": "images/8069 - MATRIX.png",
+    "stock": 0
+  },
+  {
+    "name": "8990 - PRETO",
+    "image": "images/8990 - PRETO.png",
+    "stock": 0
+  },
+  {
+    "name": "8736 - ÍNDIGO",
+    "image": "images/8736 - ÍNDIGO.png",
+    "stock": 0
+  },
+  {
+    "name": "9278 - Lhama",
+    "image": "images/9278 - Lhama.png",
+    "stock": 0
+  },
+  {
+    "name": "9534 - Unicórnio",
+    "image": "images/9534 - Unicórnio.png",
+    "stock": 0
+  }
+]
