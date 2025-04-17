@@ -1,0 +1,59 @@
+// download all images from the site cores
+
+(async () => {
+  const items = document.querySelectorAll('.site-cores__item');
+
+  for (const item of items) {
+    const img = item.querySelector('img.site-cores__imagem');
+    const name = img?.alt?.trim() || 'image';
+    const url = img?.src;
+
+    if (!url) continue;
+
+    // Fetch image data as blob
+    const blob = await fetch(url).then(res => res.blob());
+
+    // Create download link
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `${name}.png`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Optional: wait a bit between downloads to avoid hammering the site
+    await new Promise(r => setTimeout(r, 300));
+  }
+
+  console.log("✅ All downloads triggered!");
+})();
+
+
+// download a json file with the names and images of the cores
+(() => {
+    const items = document.querySelectorAll('.site-cores__item');
+    const inventory = [];
+  
+    for (const item of items) {
+      const img = item.querySelector('img.site-cores__imagem');
+      const name = img?.alt?.trim();
+      if (!name) continue;
+  
+      inventory.push({
+        name: name,
+        image: `images/${name}.png`,
+        stock: 0
+      });
+    }
+  
+    const json = JSON.stringify(inventory, null, 2);
+    console.log("✅ JSON:", json);
+  
+    // Trigger download
+    const blob = new Blob([json], { type: 'application/json' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'stock.json';
+    link.click();
+  })();
+  

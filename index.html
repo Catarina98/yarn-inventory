@@ -2,109 +2,192 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Yarn Inventory</title>
+  <title>Yarn Inventory</title>
   <style>
-    body { font-family: sans-serif; padding: 20px; background: #fefefe; }
-    h1 { text-align: center; }
-    .controls { text-align: center; margin-bottom: 20px; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 20px;
-    }
-    .yarn {
+    body { font-family: sans-serif; margin: 2em; }
+    .buttons { margin-bottom: 1em; display: flex; border-bottom: 2px solid #ede8e8;}
+    .buttons button { margin-right: 10px; padding: 8px 16px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 16px; }
+    .yarn-card {
+      width: 150px;
       border: 1px solid #ddd;
-      border-radius: 10px;
       padding: 10px;
-      background: white;
       text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
     }
-    .yarn img {
-      width: 100%;
-      border-radius: 5px;
-    }
-    .name { font-weight: bold; margin-top: 10px; }
-    .stock-input {
-      margin-top: 5px;
-      width: 60px;
-      text-align: center;
-    }
-    button {
-      padding: 8px 12px;
-      margin: 0 5px;
-      border: none;
-      border-radius: 6px;
-      background: #4caf50;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #43a047;
-    }
+    .yarn-card img { width: 100%; border-radius: 6px; }
+    .stock { margin-top: 8px; font-weight: bold; }
+    h1{text-align: center;}
+    /* From Uiverse.io by satyamchaudharydev */ 
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button {
+  --primary-color: #111;
+  --hovered-color: #c84747;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -2px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+button p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  content: "Subscribe";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+button:hover::after, button.active::after {
+  width: 100%;
+}
+
+button:hover p::before, button.active p::before {
+  width: 100%;
+}
+
   </style>
 </head>
 <body>
-  <h1>🧶 My Yarn Inventory</h1>
 
-  <div class="controls">
-    <button onclick="sortByStock()">Sort by Stock</button>
-    <button onclick="downloadUpdatedStock()">Download Updated JSON</button>
+  <h1>🧶 Yarn Inventory</h1>
+
+  <div style="margin-bottom: 1em;">
+    <button id="edit-btn" onclick="toggleEdit()">✏️ Edit Stock</button>
+    <button id="download-btn" onclick="downloadJSON()" style="display: none;">💾 Download Updated JSON</button>
   </div>
 
-  <div class="grid" id="inventory"></div>
+  <div class="buttons">
+    <button onclick="loadStock('amigurumi.json')">Amigurumi</button>
+    <button onclick="loadStock('barroco.json')">Barroco</button>
+    <button onclick="loadStock('cleaDuplo.json')">Clea Duplo</button>
+    <button onclick="loadStock('charme.json')">Charme</button>
+    <button onclick="loadStock('encanto.json')">Encanto</button>
+    <!-- Add more as needed -->
+  </div>
+
+  <div id="inventory" class="grid"></div>
 
   <script>
-    let yarnData = [];
+    let currentData = [];
+    let currentFile = '';
+    let editMode = false;
 
+    function setActiveButton(file) {
+      const buttons = document.querySelectorAll('.buttons button');
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('onclick').includes(file)) {
+          btn.classList.add('active');
+        }
+      });
+    }
+  
+    async function loadStock(file) {
+      setActiveButton(file);
+
+      currentFile = file;
+      editMode = false;
+      toggleEditButton(false);
+  
+      const container = document.getElementById('inventory');
+      container.innerHTML = 'Loading...';
+  
+      try {
+        const response = await fetch(file);
+        const data = await response.json();
+  
+        // Save the data globally
+        currentData = data;
+  
+        // Sort by stock descending
+        data.sort((a, b) => b.stock - a.stock);
+  
+        renderInventory();
+      } catch (err) {
+        container.innerHTML = '❌ Failed to load stock.';
+        console.error(err);
+      }
+    }
+  
     function renderInventory() {
-      const grid = document.getElementById('inventory');
-      grid.innerHTML = '';
-      yarnData.forEach((item, index) => {
+      const container = document.getElementById('inventory');
+      container.innerHTML = '';
+  
+      currentData.forEach((item, index) => {
         const div = document.createElement('div');
-        div.className = 'yarn';
+        div.className = 'yarn-card';
+  
+        let stockHTML = editMode
+          ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
+          : `<div class="stock">Stock: ${item.stock}</div>`;
+  
         div.innerHTML = `
           <img src="${item.image}" alt="${item.name}">
-          <div class="name">${item.name}</div>
-          <div>Stock: 
-            <input type="number" class="stock-input" min="0" value="${item.stock}" 
-              onchange="updateStock(${index}, this.value)">
-          </div>
+          <div>${item.name}</div>
+          ${stockHTML}
         `;
-        grid.appendChild(div);
+        container.appendChild(div);
       });
+  
+      document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
     }
-
-    function updateStock(index, value) {
-      yarnData[index].stock = parseInt(value) || 0;
-    }
-
-    function sortByStock() {
-      yarnData.sort((a, b) => b.stock - a.stock);
+  
+    function toggleEdit() {
+      editMode = !editMode;
+      toggleEditButton(editMode);
       renderInventory();
     }
-
-    function downloadUpdatedStock() {
-      const dataStr = JSON.stringify(yarnData, null, 2);
-      const blob = new Blob([dataStr], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
+  
+    function toggleEditButton(state) {
+      const btn = document.getElementById('edit-btn');
+      btn.textContent = state ? '🔒 Exit Edit Mode' : '✏️ Edit Stock';
+    }
+  
+    function updateStock(index, value) {
+      currentData[index].stock = parseInt(value, 10);
+    }
+  
+    function downloadJSON() {
+      const blob = new Blob([JSON.stringify(currentData, null, 2)], { type: 'application/json' });
       const link = document.createElement('a');
-      link.href = url;
-      link.download = 'stock.json';
+      link.href = URL.createObjectURL(blob);
+      link.download = currentFile;
       link.click();
     }
-
-    // Initial load
-    fetch('stock.json')
-      .then(response => response.json())
-      .then(data => {
-        yarnData = data;
-        sortByStock(); // sort before first render
-      })
-      .catch(err => {
-        document.getElementById('inventory').innerHTML = '<p>Error loading inventory.</p>';
-        console.error(err);
-      });
+  
+    // Load initial file
+    loadStock('amigurumi.json');
   </script>
+  
 </body>
 </html>
