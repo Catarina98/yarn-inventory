@@ -12,22 +12,22 @@
   {
     "name": "20 - NATURAL",
     "image": "images/amigurumi/20 - NATURAL.png",
-    "stock": 2
+    "stock": 3
   },
   {
     "name": "3061 - GARDÊNIA",
     "image": "images/amigurumi/3061 - GARDÊNIA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7564 - PORCELANA",
     "image": "images/amigurumi/7564 - PORCELANA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7563 - CHANTILLY",
     "image": "images/amigurumi/7563 - CHANTILLY.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7650 - AMÊNDOA",
@@ -37,7 +37,7 @@
   {
     "name": "7625 - CASTANHA",
     "image": "images/amigurumi/7625 - CASTANHA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7066 - PEDRA QUENTE",
@@ -67,7 +67,7 @@
   {
     "name": "7400 - BROWNIE",
     "image": "images/amigurumi/7400 - BROWNIE.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7220 - TÂMARA",
@@ -117,7 +117,7 @@
   {
     "name": "1205 - MAGNÓLIA",
     "image": "images/amigurumi/1205 - MAGNÓLIA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "1289 - CANÁRIO",
@@ -137,7 +137,7 @@
   {
     "name": "4095 - RUM",
     "image": "images/amigurumi/4095 - RUM.png",
-    "stock": 0
+    "stock": 2
   },
   {
     "name": "4448 - TIJOLO",
@@ -162,7 +162,7 @@
   {
     "name": "4456 - LARANJA",
     "image": "images/amigurumi/4456 - LARANJA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "4445 - TANGERINA",
@@ -172,12 +172,12 @@
   {
     "name": "3583 - CEREJA",
     "image": "images/amigurumi/3583 - CEREJA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3402 - VERMELHO-CÍRCULO",
     "image": "images/amigurumi/3402 - VERMELHO-CÍRCULO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3528 - CARMIM",
@@ -187,12 +187,12 @@
   {
     "name": "7078 - PIMENTA ROSA",
     "image": "images/amigurumi/7078 - PIMENTA ROSA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7136 - MARSALA",
     "image": "images/amigurumi/7136 - MARSALA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3611 - RUBI",
@@ -212,7 +212,7 @@
   {
     "name": "3334 - TULIPA",
     "image": "images/amigurumi/3334 - TULIPA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3048 - FLAMINGO",
@@ -282,7 +282,7 @@
   {
     "name": "6802 - MALVA",
     "image": "images/amigurumi/6802 - MALVA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "6006 - LILÁS-CANDY",
@@ -297,12 +297,12 @@
   {
     "name": "6034 - REALEZA",
     "image": "images/amigurumi/6034 - REALEZA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "6614 - ALFAZEMA",
     "image": "images/amigurumi/6614 - ALFAZEMA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3154 - VINHO",
@@ -312,7 +312,7 @@
   {
     "name": "6030 - MÍSTICO",
     "image": "images/amigurumi/6030 - MÍSTICO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "6201 - TECNO",
@@ -322,7 +322,7 @@
   {
     "name": "2931 - NÁUTICO",
     "image": "images/amigurumi/2931 - NÁUTICO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2930 - NETUNO",
@@ -332,12 +332,12 @@
   {
     "name": "2927 - AQUÁRIO",
     "image": "images/amigurumi/2927 - AQUÁRIO.png",
-    "stock": 0
+    "stock": 3
   },
   {
     "name": "2012 - AZUL-CANDY",
     "image": "images/amigurumi/2012 - AZUL-CANDY.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2137 - HORTÊNSIA",
@@ -367,12 +367,12 @@
   {
     "name": "2745 - MARINHEIRO",
     "image": "images/amigurumi/2745 - MARINHEIRO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2856 - ANIL-PROFUNDO",
     "image": "images/amigurumi/2856 - ANIL-PROFUNDO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5073 - PETRÓLEO",
@@ -382,7 +382,7 @@
   {
     "name": "5076 - HERA",
     "image": "images/amigurumi/5076 - HERA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5398 - MUSGO",
@@ -397,12 +397,12 @@
   {
     "name": "5669 - TIFFANY",
     "image": "images/amigurumi/5669 - TIFFANY.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5091 - CELESTE",
     "image": "images/amigurumi/5091 - CELESTE.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5743 - NEO MINT",
@@ -427,22 +427,22 @@
   {
     "name": "5583 - VERDE LIMÃO",
     "image": "images/amigurumi/5583 - VERDE LIMÃO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5203 - GREENERY",
     "image": "images/amigurumi/5203 - GREENERY.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5800 - PISTACHE",
     "image": "images/amigurumi/5800 - PISTACHE.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5089 - SELVA",
     "image": "images/amigurumi/5089 - SELVA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5368 - MILITAR",
@@ -452,7 +452,7 @@
   {
     "name": "5083 - ECO",
     "image": "images/amigurumi/5083 - ECO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5745 - EUCALIPTO",
@@ -462,12 +462,12 @@
   {
     "name": "8013 - GLACIAL",
     "image": "images/amigurumi/8013 - GLACIAL.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "8008 - PEDREIRA",
     "image": "images/amigurumi/8008 - PEDREIRA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "8797 - AÇO",
@@ -482,21 +482,21 @@
   {
     "name": "8990 - PRETO",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "8736 - ÍNDIGO",
     "image": "images/amigurumi/8736 - ÍNDIGO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "9278 - Lhama",
     "image": "images/amigurumi/9278 - Lhama.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "9534 - Unicórnio",
     "image": "images/amigurumi/9534 - Unicórnio.png",
-    "stock": 0
+    "stock": 2
   }
 ]
