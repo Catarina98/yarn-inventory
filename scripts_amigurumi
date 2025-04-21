@@ -39,8 +39,12 @@
       const name = img?.alt?.trim();
       if (!name) continue;
   
+      // Extract the color code (numbers before the hyphen)
+      const colorCode = name.split('-')[0].trim();
+  
       inventory.push({
         name: name,
+        colorCode: colorCode,
         image: `images/${name}.png`,
         stock: 0
       });
