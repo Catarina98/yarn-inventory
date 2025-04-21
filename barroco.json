@@ -1,271 +1,325 @@
 [
   {
     "name": "8001 - BRANCO",
+    "colorCode": "8001",
     "image": "images/barroco/8001 - BRANCO.png",
     "stock": 0
   },
   {
     "name": "7684 - PORCELANA",
+    "colorCode": "7684",
     "image": "images/barroco/7684 - PORCELANA.png",
     "stock": 0
   },
   {
     "name": "7389 - RAPADURA",
+    "colorCode": "7389",
     "image": "images/barroco/7389 - RAPADURA.png",
     "stock": 0
   },
   {
     "name": "7727 - CAQUI",
+    "colorCode": "7727",
     "image": "images/barroco/7727 - CAQUI.png",
     "stock": 0
   },
   {
     "name": "7625 - CASTANHA",
+    "colorCode": "7625",
     "image": "images/barroco/7625 - CASTANHA.png",
     "stock": 0
   },
   {
     "name": "7603 - CASTOR",
+    "colorCode": "7603",
     "image": "images/barroco/7603 - CASTOR.png",
     "stock": 0
   },
   {
     "name": "7259 - BRONZE",
+    "colorCode": "7259",
     "image": "images/barroco/7259 - BRONZE.png",
     "stock": 0
   },
   {
     "name": "7220 - TÂMARA",
+    "colorCode": "7220",
     "image": "images/barroco/7220 - TÂMARA.png",
     "stock": 0
   },
   {
     "name": "7738 - CAFÉ",
+    "colorCode": "7738",
     "image": "images/barroco/7738 - CAFÉ.png",
     "stock": 0
   },
   {
     "name": "7311 - TABACO",
+    "colorCode": "7311",
     "image": "images/barroco/7311 - TABACO.png",
     "stock": 0
   },
   {
     "name": "1114 - AMARELO-CANDY",
+    "colorCode": "1114",
     "image": "images/barroco/1114 - AMARELO-CANDY.png",
     "stock": 0
   },
   {
     "name": "1289 - CANÁRIO",
+    "colorCode": "1289",
     "image": "images/barroco/1289 - CANÁRIO.png",
     "stock": 0
   },
   {
     "name": "1449 - OURO",
+    "colorCode": "1449",
     "image": "images/barroco/1449 - OURO.png",
     "stock": 0
   },
   {
     "name": "7207 - ÂMBAR",
+    "colorCode": "7207",
     "image": "images/barroco/7207 - ÂMBAR.png",
     "stock": 0
   },
   {
     "name": "4224 - PEACH FUZZ",
+    "colorCode": "4224",
     "image": "images/barroco/4224 - PEACH FUZZ.png",
     "stock": 0
   },
   {
     "name": "3346 - SUSPIRO",
+    "colorCode": "3346",
     "image": "images/barroco/3346 - SUSPIRO.png",
     "stock": 0
   },
   {
     "name": "4514 - PÊSSEGO",
+    "colorCode": "4514",
     "image": "images/barroco/4514 - PÊSSEGO.png",
     "stock": 0
   },
   {
     "name": "4004 - CORAL-VIVO",
+    "colorCode": "4004",
     "image": "images/barroco/4004 - CORAL-VIVO.png",
     "stock": 0
   },
   {
     "name": "4131 - DARK CHEDDAR",
+    "colorCode": "4131",
     "image": "images/barroco/4131 - DARK CHEDDAR.png",
     "stock": 0
   },
   {
     "name": "4456 - LARANJA",
+    "colorCode": "4456",
     "image": "images/barroco/4456 - LARANJA.png",
     "stock": 0
   },
   {
     "name": "4676 - BRASA",
+    "colorCode": "4676",
     "image": "images/barroco/4676 - BRASA.png",
     "stock": 0
   },
   {
     "name": "3501 - MALAGUETA",
+    "colorCode": "3501",
     "image": "images/barroco/3501 - MALAGUETA.png",
     "stock": 0
   },
   {
     "name": "3402 - VERMELHO-CÍRCULO",
+    "colorCode": "3402",
     "image": "images/barroco/3402 - VERMELHO-CÍRCULO.png",
     "stock": 0
   },
   {
     "name": "3635 - PAIXÃO",
+    "colorCode": "3635",
     "image": "images/barroco/3635 - PAIXÃO.png",
     "stock": 0
   },
   {
     "name": "7136 - MARSALA",
+    "colorCode": "7136",
     "image": "images/barroco/7136 - MARSALA.png",
     "stock": 0
   },
   {
     "name": "3390 - QUARTZO",
+    "colorCode": "3390",
     "image": "images/barroco/3390 - QUARTZO.png",
     "stock": 0
   },
   {
     "name": "3526 - ROSA-CANDY",
+    "colorCode": "3526",
     "image": "images/barroco/3526 - ROSA-CANDY.png",
     "stock": 0
   },
   {
     "name": "6085 - BALÉ",
+    "colorCode": "6085",
     "image": "images/barroco/6085 - BALÉ.png",
     "stock": 0
   },
   {
     "name": "3334 - TULIPA",
+    "colorCode": "3334",
     "image": "images/barroco/3334 - TULIPA.png",
     "stock": 0
   },
   {
     "name": "6156 - TUTTI FRUTTI",
+    "colorCode": "6156",
     "image": "images/barroco/6156 - TUTTI FRUTTI.png",
     "stock": 0
   },
   {
     "name": "6133 - PINK",
+    "colorCode": "6133",
     "image": "images/barroco/6133 - PINK.png",
     "stock": 0
   },
   {
     "name": "6006 - LILÁS-CANDY",
+    "colorCode": "6006",
     "image": "images/barroco/6006 - LILÁS-CANDY.png",
     "stock": 0
   },
   {
     "name": "6394 - LAVANDA",
+    "colorCode": "6394",
     "image": "images/barroco/6394 - LAVANDA.png",
     "stock": 0
   },
   {
     "name": "6375 - UVA",
+    "colorCode": "6375",
     "image": "images/barroco/6375 - UVA.png",
     "stock": 0
   },
   {
     "name": "2204 - VERDE-CANDY",
+    "colorCode": "2204",
     "image": "images/barroco/2204 - VERDE-CANDY.png",
     "stock": 0
   },
   {
     "name": "5091 - CELESTE",
+    "colorCode": "5091",
     "image": "images/barroco/5091 - CELESTE.png",
     "stock": 0
   },
   {
     "name": "5669 - TIFFANY",
+    "colorCode": "5669",
     "image": "images/barroco/5669 - TIFFANY.png",
     "stock": 0
   },
   {
     "name": "5583 - VERDE - LIMÃO",
+    "colorCode": "5583",
     "image": "images/barroco/5583 - VERDE - LIMÃO.png",
     "stock": 0
   },
   {
     "name": "5203 - GREENERY",
+    "colorCode": "5203",
     "image": "images/barroco/5203 - GREENERY.png",
     "stock": 0
   },
   {
     "name": "5800 - PISTACHE",
+    "colorCode": "5800",
     "image": "images/barroco/5800 - PISTACHE.png",
     "stock": 0
   },
   {
     "name": "5239 - HORTALIÇA",
+    "colorCode": "5239",
     "image": "images/barroco/5239 - HORTALIÇA.png",
     "stock": 0
   },
   {
     "name": "5242 - TREVO",
+    "colorCode": "5242",
     "image": "images/barroco/5242 - TREVO.png",
     "stock": 0
   },
   {
     "name": "5767 - BANDEIRA",
+    "colorCode": "5767",
     "image": "images/barroco/5767 - BANDEIRA.png",
     "stock": 0
   },
   {
     "name": "5718 - MILITAR",
+    "colorCode": "5718",
     "image": "images/barroco/5718 - MILITAR.png",
     "stock": 0
   },
   {
     "name": "2012 - AZUL-CANDY",
+    "colorCode": "2012",
     "image": "images/barroco/2012 - AZUL-CANDY.png",
     "stock": 0
   },
   {
     "name": "2930 - NETUNO",
+    "colorCode": "2930",
     "image": "images/barroco/2930 - NETUNO.png",
     "stock": 0
   },
   {
     "name": "2500 - ACQUA",
+    "colorCode": "2500",
     "image": "images/barroco/2500 - ACQUA.png",
     "stock": 0
   },
   {
     "name": "2194 - TURQUESA",
+    "colorCode": "2194",
     "image": "images/barroco/2194 - TURQUESA.png",
     "stock": 0
   },
   {
     "name": "2829 - AZUL-BIC",
+    "colorCode": "2829",
     "image": "images/barroco/2829 - AZUL-BIC.png",
     "stock": 0
   },
   {
     "name": "2856 - ANIL-PROFUNDO",
+    "colorCode": "2856",
     "image": "images/barroco/2856 - ANIL-PROFUNDO.png",
     "stock": 0
   },
   {
     "name": "8212 - CROMADO",
+    "colorCode": "8212",
     "image": "images/barroco/8212 - CROMADO.png",
     "stock": 0
   },
   {
     "name": "8336 - CINZA-CHUMBO",
+    "colorCode": "8336",
     "image": "images/barroco/8336 - CINZA-CHUMBO.png",
     "stock": 0
   },
   {
     "name": "8323 - CINZA-ÔNIX",
+    "colorCode": "8323",
     "image": "images/barroco/8323 - CINZA-ÔNIX.png",
     "stock": 0
   },
   {
     "name": "8990 - PRETO",
+    "colorCode": "8990",
     "image": "images/barroco/8990 - PRETO.png",
     "stock": 0
   }
