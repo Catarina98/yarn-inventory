@@ -167,30 +167,37 @@ button:hover p::before, button.active p::before {
     }
   
     function renderInventory() {
-      const container = document.getElementById('inventory');
-      container.innerHTML = '';
-  
-      currentData.forEach((item, index) => {
-        const div = document.createElement('div');
-        div.className = 'yarn-card';
-        if (item.stock === 0) {
-          div.classList.add('no-stock');
-        }
-  
-        let stockHTML = editMode
-          ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
-          : `<div class="stock">Stock: ${item.stock}</div>`;
-  
-        div.innerHTML = `
-          <img src="${item.image}" alt="${item.name}">
-          <div>${item.name}</div>
-          ${stockHTML}
-        `;
-        container.appendChild(div);
-      });
-  
-      document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
+  const container = document.getElementById('inventory');
+  container.innerHTML = '';
+
+  currentData.forEach((item, index) => {
+    const div = document.createElement('div');
+    div.className = 'yarn-card';
+    if (item.stock === 0) {
+      div.classList.add('no-stock');
     }
+
+    let stockHTML = editMode
+      ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
+      : `<div class="stock">Stock: ${item.stock}</div>`;
+
+    // Add a link only for the Amigurumi tab
+    let linkHTML = '';
+    if (item.colorCode !== undefined && currentFile === 'amigurumi.json') {
+      linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=amigurumi+círculo+${item.colorCode}" target="_blank">🔗 View Online</a>`;
+    }
+
+    div.innerHTML = `
+      <img src="${item.image}" alt="${item.name}">
+      <div>${item.name}</div>
+      ${stockHTML}
+      ${linkHTML}
+    `;
+    container.appendChild(div);
+  });
+
+  document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
+}
   
     function toggleEdit() {
       editMode = !editMode;
