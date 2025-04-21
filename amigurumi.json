@@ -1,501 +1,601 @@
 [
   {
     "name": "8001 - BRANCO",
+    "colorCode": "8001",
     "image": "images/amigurumi/8001 - BRANCO.png",
     "stock": 1
   },
   {
     "name": "8176 - OFF-WHITE",
+    "colorCode": "8176",
     "image": "images/amigurumi/8176 - OFF-WHITE.png",
     "stock": 3
   },
   {
     "name": "20 - NATURAL",
+    "colorCode": "20",
     "image": "images/amigurumi/20 - NATURAL.png",
     "stock": 3
   },
   {
     "name": "3061 - GARDÊNIA",
+    "colorCode": "3061",
     "image": "images/amigurumi/3061 - GARDÊNIA.png",
     "stock": 1
   },
   {
     "name": "7564 - PORCELANA",
+    "colorCode": "7564",
     "image": "images/amigurumi/7564 - PORCELANA.png",
     "stock": 1
   },
   {
     "name": "7563 - CHANTILLY",
+    "colorCode": "7563",
     "image": "images/amigurumi/7563 - CHANTILLY.png",
     "stock": 1
   },
   {
     "name": "7650 - AMÊNDOA",
+    "colorCode": "7650",
     "image": "images/amigurumi/7650 - AMÊNDOA.png",
     "stock": 0
   },
   {
     "name": "7625 - CASTANHA",
+    "colorCode": "7625",
     "image": "images/amigurumi/7625 - CASTANHA.png",
     "stock": 0
   },
   {
     "name": "7066 - PEDRA QUENTE",
+    "colorCode": "7066",
     "image": "images/amigurumi/7066 - PEDRA QUENTE.png",
     "stock": 0
   },
   {
     "name": "7603 - CASTOR",
+    "colorCode": "7603",
     "image": "images/amigurumi/7603 - CASTOR.png",
     "stock": 0
   },
   {
     "name": "7713 - LENHA",
+    "colorCode": "7713",
     "image": "images/amigurumi/7713 - LENHA.png",
     "stock": 0
   },
   {
     "name": "7567 - CACAU",
+    "colorCode": "7567",
     "image": "images/amigurumi/7567 - CACAU.png",
     "stock": 0
   },
   {
     "name": "7569 - BRIGADEIRO",
+    "colorCode": "7569",
     "image": "images/amigurumi/7569 - BRIGADEIRO.png",
     "stock": 1
   },
   {
     "name": "7400 - BROWNIE",
+    "colorCode": "7400",
     "image": "images/amigurumi/7400 - BROWNIE.png",
     "stock": 0
   },
   {
     "name": "7220 - TÂMARA",
+    "colorCode": "7220",
     "image": "images/amigurumi/7220 - TÂMARA.png",
     "stock": 0
   },
   {
     "name": "7148 - CRAFT",
+    "colorCode": "7148",
     "image": "images/amigurumi/7148 - CRAFT.png",
     "stock": 0
   },
   {
     "name": "7077 - DOCE DE LEITE",
+    "colorCode": "7077",
     "image": "images/amigurumi/7077 - DOCE DE LEITE.png",
     "stock": 0
   },
   {
     "name": "7030 - MOSTARDA",
+    "colorCode": "7030",
     "image": "images/amigurumi/7030 - MOSTARDA.png",
     "stock": 0
   },
   {
     "name": "7076 - CARAMELITO",
+    "colorCode": "7076",
     "image": "images/amigurumi/7076 - CARAMELITO.png",
     "stock": 1
   },
   {
     "name": "7072 - CENTEIO",
+    "colorCode": "7072",
     "image": "images/amigurumi/7072 - CENTEIO.png",
     "stock": 0
   },
   {
     "name": "1112 - CREME",
+    "colorCode": "1112",
     "image": "images/amigurumi/1112 - CREME.png",
     "stock": 0
   },
   {
     "name": "1730 - AMARELO-CANDY",
+    "colorCode": "1730",
     "image": "images/amigurumi/1730 - AMARELO-CANDY.png",
     "stock": 0
   },
   {
     "name": "1317 - SOLAR",
+    "colorCode": "1317",
     "image": "images/amigurumi/1317 - SOLAR.png",
     "stock": 0
   },
   {
     "name": "1205 - MAGNÓLIA",
+    "colorCode": "1205",
     "image": "images/amigurumi/1205 - MAGNÓLIA.png",
     "stock": 1
   },
   {
     "name": "1289 - CANÁRIO",
+    "colorCode": "1289",
     "image": "images/amigurumi/1289 - CANÁRIO.png",
     "stock": 0
   },
   {
     "name": "4146 - GEMA",
+    "colorCode": "4146",
     "image": "images/amigurumi/4146 - GEMA.png",
     "stock": 0
   },
   {
     "name": "4131 - DARK CHEDDAR",
+    "colorCode": "4131",
     "image": "images/amigurumi/4131 - DARK CHEDDAR.png",
     "stock": 0
   },
   {
     "name": "4095 - RUM",
+    "colorCode": "4095",
     "image": "images/amigurumi/4095 - RUM.png",
     "stock": 2
   },
   {
     "name": "4448 - TIJOLO",
+    "colorCode": "4448",
     "image": "images/amigurumi/4448 - TIJOLO.png",
     "stock": 0
   },
   {
     "name": "4093 - TAFETÁ",
+    "colorCode": "4093",
     "image": "images/amigurumi/4093 - TAFETÁ.png",
     "stock": 0
   },
   {
     "name": "4171 - TROPICÁLIA",
+    "colorCode": "4171",
     "image": "images/amigurumi/4171 - TROPICÁLIA.png",
     "stock": 0
   },
   {
     "name": "4168 - DÁLIA",
+    "colorCode": "4168",
     "image": "images/amigurumi/4168 - DÁLIA.png",
     "stock": 0
   },
   {
     "name": "4456 - LARANJA",
+    "colorCode": "4456",
     "image": "images/amigurumi/4456 - LARANJA.png",
     "stock": 1
   },
   {
     "name": "4445 - TANGERINA",
+    "colorCode": "4445",
     "image": "images/amigurumi/4445 - TANGERINA.png",
     "stock": 0
   },
   {
     "name": "3583 - CEREJA",
+    "colorCode": "3583",
     "image": "images/amigurumi/3583 - CEREJA.png",
     "stock": 1
   },
   {
     "name": "3402 - VERMELHO-CÍRCULO",
+    "colorCode": "3402",
     "image": "images/amigurumi/3402 - VERMELHO-CÍRCULO.png",
     "stock": 1
   },
   {
     "name": "3528 - CARMIM",
+    "colorCode": "3528",
     "image": "images/amigurumi/3528 - CARMIM.png",
     "stock": 0
   },
   {
     "name": "7078 - PIMENTA ROSA",
+    "colorCode": "7078",
     "image": "images/amigurumi/7078 - PIMENTA ROSA.png",
     "stock": 1
   },
   {
     "name": "7136 - MARSALA",
+    "colorCode": "7136",
     "image": "images/amigurumi/7136 - MARSALA.png",
     "stock": 1
   },
   {
     "name": "3611 - RUBI",
+    "colorCode": "3611",
     "image": "images/amigurumi/3611 - RUBI.png",
     "stock": 0
   },
   {
     "name": "3951 - VIVA MAGENTA",
+    "colorCode": "3951",
     "image": "images/amigurumi/3951 - VIVA MAGENTA.png",
     "stock": 0
   },
   {
     "name": "3754 - ROSA PINK",
+    "colorCode": "3754",
     "image": "images/amigurumi/3754 - ROSA PINK.png",
     "stock": 0
   },
   {
     "name": "3334 - TULIPA",
+    "colorCode": "3334",
     "image": "images/amigurumi/3334 - TULIPA.png",
     "stock": 1
   },
   {
     "name": "3048 - FLAMINGO",
+    "colorCode": "3048",
     "image": "images/amigurumi/3048 - FLAMINGO.png",
     "stock": 0
   },
   {
     "name": "3182 - PITAYA",
+    "colorCode": "3182",
     "image": "images/amigurumi/3182 - PITAYA.png",
     "stock": 0
   },
   {
     "name": "3131 - CHICLETE",
+    "colorCode": "3131",
     "image": "images/amigurumi/3131 - CHICLETE.png",
     "stock": 0
   },
   {
     "name": "3077 - QUARTZO",
+    "colorCode": "3077",
     "image": "images/amigurumi/3077 - QUARTZO.png",
     "stock": 0
   },
   {
     "name": "3046 - DOÇURA",
+    "colorCode": "3046",
     "image": "images/amigurumi/3046 - DOÇURA.png",
     "stock": 0
   },
   {
     "name": "3148 - MACADÂMIA",
+    "colorCode": "3148",
     "image": "images/amigurumi/3148 - MACADÂMIA.png",
     "stock": 0
   },
   {
     "name": "4224 - PEACH FUZZ",
+    "colorCode": "4224",
     "image": "images/amigurumi/4224 - PEACH FUZZ.png",
     "stock": 0
   },
   {
     "name": "3047 - SOPRO",
+    "colorCode": "3047",
     "image": "images/amigurumi/3047 - SOPRO.png",
     "stock": 0
   },
   {
     "name": "4092 - ORGANZA",
+    "colorCode": "4092",
     "image": "images/amigurumi/4092 - ORGANZA.png",
     "stock": 0
   },
   {
     "name": "4094 - CETIM",
+    "colorCode": "4094",
     "image": "images/amigurumi/4094 - CETIM.png",
     "stock": 0
   },
   {
     "name": "3201 - CAMAFEU",
+    "colorCode": "3201",
     "image": "images/amigurumi/3201 - CAMAFEU.png",
     "stock": 0
   },
   {
     "name": "3157 - ROSEIRA",
+    "colorCode": "3157",
     "image": "images/amigurumi/3157 - ROSEIRA.png",
     "stock": 0
   },
   {
     "name": "6161 - VIOLETA",
+    "colorCode": "6161",
     "image": "images/amigurumi/6161 - VIOLETA.png",
     "stock": 0
   },
   {
     "name": "6802 - MALVA",
+    "colorCode": "6802",
     "image": "images/amigurumi/6802 - MALVA.png",
     "stock": 1
   },
   {
     "name": "6006 - LILÁS-CANDY",
+    "colorCode": "6006",
     "image": "images/amigurumi/6006 - LILÁS-CANDY.png",
     "stock": 0
   },
   {
     "name": "6399 - AZALEIA",
+    "colorCode": "6399",
     "image": "images/amigurumi/6399 - AZALEIA.png",
     "stock": 0
   },
   {
     "name": "6034 - REALEZA",
+    "colorCode": "6034",
     "image": "images/amigurumi/6034 - REALEZA.png",
     "stock": 1
   },
   {
     "name": "6614 - ALFAZEMA",
+    "colorCode": "6614",
     "image": "images/amigurumi/6614 - ALFAZEMA.png",
     "stock": 1
   },
   {
     "name": "3154 - VINHO",
+    "colorCode": "3154",
     "image": "images/amigurumi/3154 - VINHO.png",
     "stock": 0
   },
   {
     "name": "6030 - MÍSTICO",
+    "colorCode": "6030",
     "image": "images/amigurumi/6030 - MÍSTICO.png",
     "stock": 1
   },
   {
     "name": "6201 - TECNO",
+    "colorCode": "6201",
     "image": "images/amigurumi/6201 - TECNO.png",
     "stock": 0
   },
   {
     "name": "2931 - NÁUTICO",
+    "colorCode": "2931",
     "image": "images/amigurumi/2931 - NÁUTICO.png",
     "stock": 1
   },
   {
     "name": "2930 - NETUNO",
+    "colorCode": "2930",
     "image": "images/amigurumi/2930 - NETUNO.png",
     "stock": 0
   },
   {
     "name": "2927 - AQUÁRIO",
+    "colorCode": "2927",
     "image": "images/amigurumi/2927 - AQUÁRIO.png",
     "stock": 3
   },
   {
     "name": "2012 - AZUL-CANDY",
+    "colorCode": "2012",
     "image": "images/amigurumi/2012 - AZUL-CANDY.png",
     "stock": 1
   },
   {
     "name": "2137 - HORTÊNSIA",
+    "colorCode": "2137",
     "image": "images/amigurumi/2137 - HORTÊNSIA.png",
     "stock": 0
   },
   {
     "name": "2500 - ACQUA",
+    "colorCode": "2500",
     "image": "images/amigurumi/2500 - ACQUA.png",
     "stock": 0
   },
   {
     "name": "2194 - TURQUESA",
+    "colorCode": "2194",
     "image": "images/amigurumi/2194 - TURQUESA.png",
     "stock": 0
   },
   {
     "name": "2618 - PLANETA",
+    "colorCode": "2618",
     "image": "images/amigurumi/2618 - PLANETA.png",
     "stock": 0
   },
   {
     "name": "2829 - AZUL-BIC",
+    "colorCode": "2829",
     "image": "images/amigurumi/2829 - AZUL-BIC.png",
     "stock": 0
   },
   {
     "name": "2745 - MARINHEIRO",
+    "colorCode": "2745",
     "image": "images/amigurumi/2745 - MARINHEIRO.png",
     "stock": 1
   },
   {
     "name": "2856 - ANIL-PROFUNDO",
+    "colorCode": "2856",
     "image": "images/amigurumi/2856 - ANIL-PROFUNDO.png",
     "stock": 1
   },
   {
     "name": "5073 - PETRÓLEO",
+    "colorCode": "5073",
     "image": "images/amigurumi/5073 - PETRÓLEO.png",
     "stock": 0
   },
   {
     "name": "5076 - HERA",
+    "colorCode": "5076",
     "image": "images/amigurumi/5076 - HERA.png",
     "stock": 1
   },
   {
     "name": "5398 - MUSGO",
+    "colorCode": "5398",
     "image": "images/amigurumi/5398 - MUSGO.png",
     "stock": 0
   },
   {
     "name": "5767 - BANDEIRA",
+    "colorCode": "5767",
     "image": "images/amigurumi/5767 - BANDEIRA.png",
     "stock": 0
   },
   {
     "name": "5669 - TIFFANY",
+    "colorCode": "5669",
     "image": "images/amigurumi/5669 - TIFFANY.png",
     "stock": 1
   },
   {
     "name": "5091 - CELESTE",
+    "colorCode": "5091",
     "image": "images/amigurumi/5091 - CELESTE.png",
     "stock": 1
   },
   {
     "name": "5743 - NEO MINT",
+    "colorCode": "5743",
     "image": "images/amigurumi/5743 - NEO MINT.png",
     "stock": 0
   },
   {
     "name": "2204 - VERDE-CANDY",
+    "colorCode": "2204",
     "image": "images/amigurumi/2204 - VERDE-CANDY.png",
     "stock": 0
   },
   {
     "name": "5741 - PERIQUITO",
+    "colorCode": "5741",
     "image": "images/amigurumi/5741 - PERIQUITO.png",
     "stock": 0
   },
   {
     "name": "5806 - LIMONADA",
+    "colorCode": "5806",
     "image": "images/amigurumi/5806 - LIMONADA.png",
     "stock": 0
   },
   {
     "name": "5583 - VERDE LIMÃO",
+    "colorCode": "5583",
     "image": "images/amigurumi/5583 - VERDE LIMÃO.png",
     "stock": 1
   },
   {
     "name": "5203 - GREENERY",
+    "colorCode": "5203",
     "image": "images/amigurumi/5203 - GREENERY.png",
     "stock": 1
   },
   {
     "name": "5800 - PISTACHE",
+    "colorCode": "5800",
     "image": "images/amigurumi/5800 - PISTACHE.png",
     "stock": 1
   },
   {
     "name": "5089 - SELVA",
+    "colorCode": "5089",
     "image": "images/amigurumi/5089 - SELVA.png",
     "stock": 1
   },
   {
     "name": "5368 - MILITAR",
+    "colorCode": "5368",
     "image": "images/amigurumi/5368 - MILITAR.png",
     "stock": 0
   },
   {
     "name": "5083 - ECO",
+    "colorCode": "5083",
     "image": "images/amigurumi/5083 - ECO.png",
     "stock": 1
   },
   {
     "name": "5745 - EUCALIPTO",
+    "colorCode": "5745",
     "image": "images/amigurumi/5745 - EUCALIPTO.png",
     "stock": 0
   },
   {
     "name": "8013 - GLACIAL",
+    "colorCode": "8013",
     "image": "images/amigurumi/8013 - GLACIAL.png",
     "stock": 1
   },
   {
     "name": "8008 - PEDREIRA",
+    "colorCode": "8008",
     "image": "images/amigurumi/8008 - PEDREIRA.png",
     "stock": 1
   },
   {
     "name": "8797 - AÇO",
+    "colorCode": "8797",
     "image": "images/amigurumi/8797 - AÇO.png",
     "stock": 0
   },
   {
     "name": "8069 - MATRIX",
+    "colorCode": "8069",
     "image": "images/amigurumi/8069 - MATRIX.png",
     "stock": 0
   },
   {
     "name": "8990 - PRETO",
+    "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
     "stock": 1
   },
   {
     "name": "8736 - ÍNDIGO",
+    "colorCode": "8736",
     "image": "images/amigurumi/8736 - ÍNDIGO.png",
     "stock": 1
   },
   {
     "name": "9278 - Lhama",
+    "colorCode": "9278",
     "image": "images/amigurumi/9278 - Lhama.png",
     "stock": 1
   },
   {
     "name": "9534 - Unicórnio",
+    "colorCode": "9534",
     "image": "images/amigurumi/9534 - Unicórnio.png",
     "stock": 2
   }
