@@ -82,6 +82,13 @@ button:hover p::before, button.active p::before {
     gap: 20px;
 }
 
+
+    /* Add styles for no-stock class */
+    .no-stock {
+      opacity: 0.5;
+      background-color: #f8d7da;
+    }
+
   </style>
 </head>
 <body>
@@ -109,20 +116,35 @@ button:hover p::before, button.active p::before {
     let currentData = [];
     let currentFile = '';
     let editMode = false;
-
+  
     function setActiveButton(file) {
       const buttons = document.querySelectorAll('.buttons button');
-      buttons.forEach(btn => {
+      buttons.forEach(async (btn) => {
         btn.classList.remove('active');
         if (btn.getAttribute('onclick').includes(file)) {
           btn.classList.add('active');
+          const stockInfo = await getStockInfo(file);
+          btn.textContent = `${btn.textContent.split(' ')[0]} (${stockInfo.inStock}/${stockInfo.total})`;
         }
       });
     }
   
+    async function getStockInfo(file) {
+      try {
+        const response = await fetch(file);
+        const data = await response.json();
+        const inStock = data.filter(item => item.stock > 0).length;
+        const total = data.length;
+        return { inStock, total };
+      } catch (err) {
+        console.error('Failed to fetch stock info:', err);
+        return { inStock: 0, total: 0 };
+      }
+    }
+  
     async function loadStock(file) {
       setActiveButton(file);
-
+  
       currentFile = file;
       editMode = false;
       toggleEditButton(false);
@@ -151,6 +173,9 @@ button:hover p::before, button.active p::before {
       currentData.forEach((item, index) => {
         const div = document.createElement('div');
         div.className = 'yarn-card';
+        if (item.stock === 0) {
+          div.classList.add('no-stock');
+        }
   
         let stockHTML = editMode
           ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
@@ -190,14 +215,13 @@ button:hover p::before, button.active p::before {
       link.click();
     }
   
-    // Load initial file
-    loadStock('amigurumi.json');
-
     function sortByStock() {
       currentData.sort((a, b) => b.stock - a.stock);
       renderInventory();
     }
-
+  
+    // Load initial file
+    loadStock('amigurumi.json');
   </script>
   
 </body>
