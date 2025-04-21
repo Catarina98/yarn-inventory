@@ -37,7 +37,7 @@
   {
     "name": "7625 - CASTANHA",
     "image": "images/amigurumi/7625 - CASTANHA.png",
-    "stock": 1
+    "stock": 0
   },
   {
     "name": "7066 - PEDRA QUENTE",
@@ -62,12 +62,12 @@
   {
     "name": "7569 - BRIGADEIRO",
     "image": "images/amigurumi/7569 - BRIGADEIRO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7400 - BROWNIE",
     "image": "images/amigurumi/7400 - BROWNIE.png",
-    "stock": 1
+    "stock": 0
   },
   {
     "name": "7220 - TÂMARA",
@@ -92,7 +92,7 @@
   {
     "name": "7076 - CARAMELITO",
     "image": "images/amigurumi/7076 - CARAMELITO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7072 - CENTEIO",
