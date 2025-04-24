@@ -39,7 +39,7 @@
     "name": "7650 - AMÊNDOA",
     "colorCode": "7650",
     "image": "images/amigurumi/7650 - AMÊNDOA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7625 - CASTANHA",
@@ -249,13 +249,13 @@
     "name": "3754 - ROSA PINK",
     "colorCode": "3754",
     "image": "images/amigurumi/3754 - ROSA PINK.png",
-    "stock": 0
+    "stock": 2
   },
   {
     "name": "3334 - TULIPA",
     "colorCode": "3334",
     "image": "images/amigurumi/3334 - TULIPA.png",
-    "stock": 1
+    "stock": 0
   },
   {
     "name": "3048 - FLAMINGO",
@@ -273,7 +273,7 @@
     "name": "3131 - CHICLETE",
     "colorCode": "3131",
     "image": "images/amigurumi/3131 - CHICLETE.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3077 - QUARTZO",
@@ -309,7 +309,7 @@
     "name": "4092 - ORGANZA",
     "colorCode": "4092",
     "image": "images/amigurumi/4092 - ORGANZA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "4094 - CETIM",
@@ -417,7 +417,7 @@
     "name": "2500 - ACQUA",
     "colorCode": "2500",
     "image": "images/amigurumi/2500 - ACQUA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2194 - TURQUESA",
@@ -429,7 +429,7 @@
     "name": "2618 - PLANETA",
     "colorCode": "2618",
     "image": "images/amigurumi/2618 - PLANETA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2829 - AZUL-BIC",
@@ -471,7 +471,7 @@
     "name": "5767 - BANDEIRA",
     "colorCode": "5767",
     "image": "images/amigurumi/5767 - BANDEIRA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5669 - TIFFANY",
@@ -579,7 +579,7 @@
     "name": "8990 - PRETO",
     "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "8736 - ÍNDIGO",
