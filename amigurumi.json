@@ -123,19 +123,19 @@
     "name": "1112 - CREME",
     "colorCode": "1112",
     "image": "images/amigurumi/1112 - CREME.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "1730 - AMARELO-CANDY",
     "colorCode": "1730",
     "image": "images/amigurumi/1730 - AMARELO-CANDY.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "1317 - SOLAR",
     "colorCode": "1317",
     "image": "images/amigurumi/1317 - SOLAR.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "1205 - MAGNÓLIA",
@@ -267,7 +267,7 @@
     "name": "3182 - PITAYA",
     "colorCode": "3182",
     "image": "images/amigurumi/3182 - PITAYA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3131 - CHICLETE",
@@ -279,13 +279,13 @@
     "name": "3077 - QUARTZO",
     "colorCode": "3077",
     "image": "images/amigurumi/3077 - QUARTZO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3046 - DOÇURA",
     "colorCode": "3046",
     "image": "images/amigurumi/3046 - DOÇURA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "3148 - MACADÂMIA",
@@ -423,7 +423,7 @@
     "name": "2194 - TURQUESA",
     "colorCode": "2194",
     "image": "images/amigurumi/2194 - TURQUESA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2618 - PLANETA",
