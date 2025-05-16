@@ -97,6 +97,7 @@ button:hover p::before, button.active p::before {
 
   <div class="buttons">
     <button onclick="loadStock('amigurumi.json')">Amigurumi</button>
+    <button onclick="loadStock('amigurumi-brilho.json')">Amigurumi Brilho</button>
     <button onclick="loadStock('barroco.json')">Barroco</button>
     <button onclick="loadStock('clea-duplo.json')">Clea Duplo</button>
     <button onclick="loadStock('charme.json')">Charme</button>
@@ -183,8 +184,35 @@ button:hover p::before, button.active p::before {
 
     // Add a link only for the Amigurumi tab
     let linkHTML = '';
-    if (item.colorCode !== undefined && currentFile === 'amigurumi.json') {
-      linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=amigurumi+círculo+${item.colorCode}" target="_blank">🔗 View Online</a>`;
+    if (item.colorCode !== undefined) {
+      let colorSearch = '';
+
+      switch(currentFile) {
+        case 'amigurumi.json':
+          colorSearch = `amigurumi+círculo`;
+          break;
+        case 'amigurumi-brilho.json':
+          colorSearch = `amigurumi+brilho+círculo`;
+          break;
+        case 'barroco.json':
+          colorSearch = `barroco+círculo`;
+          break;
+        case 'clea-duplo.json':
+          colorSearch = `clea+duplo+círculo`;
+          break;
+        case 'charme.json':
+          colorSearch = `charme+círculo`;
+          break;
+        case 'encanto.json':
+          colorSearch = `encanto+círculo`;
+          break;
+        default:
+          colorSearch = '';
+      }
+
+      if(colorSearch !== ''){
+        linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=${colorSearch}+${item.colorCode}" target="_blank">🔗 View Online</a>`;
+      }
     }
 
     div.innerHTML = `

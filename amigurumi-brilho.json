@@ -1,0 +1,176 @@
+[
+  {
+    "name": "8001 - BRANCO",
+    "colorCode": "8001",
+    "image": "images/8001 - BRANCO.png",
+    "stock": 0
+  },
+  {
+    "name": "8121 - FLOCO DE NEVE",
+    "colorCode": "8121",
+    "image": "images/8121 - FLOCO DE NEVE.png",
+    "stock": 0
+  },
+  {
+    "name": "20 - NATURAL",
+    "colorCode": "20",
+    "image": "images/20 - NATURAL.png",
+    "stock": 0
+  },
+  {
+    "name": "7563 - CHANTILY",
+    "colorCode": "7563",
+    "image": "images/7563 - CHANTILY.png",
+    "stock": 0
+  },
+  {
+    "name": "7625 - CASTANHA",
+    "colorCode": "7625",
+    "image": "images/7625 - CASTANHA.png",
+    "stock": 0
+  },
+  {
+    "name": "1112 - CREME",
+    "colorCode": "1112",
+    "image": "images/1112 - CREME.png",
+    "stock": 0
+  },
+  {
+    "name": "7076 - CARAMELITO",
+    "colorCode": "7076",
+    "image": "images/7076 - CARAMELITO.png",
+    "stock": 0
+  },
+  {
+    "name": "7030 - MOSTARDA",
+    "colorCode": "7030",
+    "image": "images/7030 - MOSTARDA.png",
+    "stock": 0
+  },
+  {
+    "name": "1289 - CANÁRIO",
+    "colorCode": "1289",
+    "image": "images/1289 - CANÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "4456 - LARANJA",
+    "colorCode": "4456",
+    "image": "images/4456 - LARANJA.png",
+    "stock": 0
+  },
+  {
+    "name": "4095 - RUM",
+    "colorCode": "4095",
+    "image": "images/4095 - RUM.png",
+    "stock": 0
+  },
+  {
+    "name": "7569 - BRIGADEIRO",
+    "colorCode": "7569",
+    "image": "images/7569 - BRIGADEIRO.png",
+    "stock": 0
+  },
+  {
+    "name": "3077 - QUARTZO",
+    "colorCode": "3077",
+    "image": "images/3077 - QUARTZO.png",
+    "stock": 0
+  },
+  {
+    "name": "3182 - PITAYA",
+    "colorCode": "3182",
+    "image": "images/3182 - PITAYA.png",
+    "stock": 0
+  },
+  {
+    "name": "3754 - ROSA PINK",
+    "colorCode": "3754",
+    "image": "images/3754 - ROSA PINK.png",
+    "stock": 0
+  },
+  {
+    "name": "3528 - CARMIM",
+    "colorCode": "3528",
+    "image": "images/3528 - CARMIM.png",
+    "stock": 0
+  },
+  {
+    "name": "3154 - VINHO",
+    "colorCode": "3154",
+    "image": "images/3154 - VINHO.png",
+    "stock": 0
+  },
+  {
+    "name": "6802 - MALVA",
+    "colorCode": "6802",
+    "image": "images/6802 - MALVA.png",
+    "stock": 0
+  },
+  {
+    "name": "2137 - HORTÊNSIA",
+    "colorCode": "2137",
+    "image": "images/2137 - HORTÊNSIA.png",
+    "stock": 0
+  },
+  {
+    "name": "2500 - ACQUA",
+    "colorCode": "2500",
+    "image": "images/2500 - ACQUA.png",
+    "stock": 0
+  },
+  {
+    "name": "2829 - AZUL BIC",
+    "colorCode": "2829",
+    "image": "images/2829 - AZUL BIC.png",
+    "stock": 0
+  },
+  {
+    "name": "5745 - EUCALIPTO",
+    "colorCode": "5745",
+    "image": "images/5745 - EUCALIPTO.png",
+    "stock": 0
+  },
+  {
+    "name": "5368 - MILITAR",
+    "colorCode": "5368",
+    "image": "images/5368 - MILITAR.png",
+    "stock": 0
+  },
+  {
+    "name": "5767 - BANDEIRA",
+    "colorCode": "5767",
+    "image": "images/5767 - BANDEIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "8008 - PEDREIRA",
+    "colorCode": "8008",
+    "image": "images/8008 - PEDREIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "8100 - MAGIA",
+    "colorCode": "8100",
+    "image": "images/8100 - MAGIA.png",
+    "stock": 0
+  },
+  {
+    "name": "8990 - PRETO",
+    "colorCode": "8990",
+    "image": "images/8990 - PRETO.png",
+    "stock": 0
+  },
+  {
+    "name": "9278 - LHAMA",
+    "colorCode": "9278",
+    "image": "images/9278 - LHAMA.png",
+    "stock": 0
+  },
+  {
+    "name": "9534 - UNICÓRNIO",
+    "colorCode": "9534",
+    "image": "images/9534 - UNICÓRNIO.png",
+    "stock": 0
+  }
+]
