@@ -3,7 +3,7 @@
     "name": "8001 - BRANCO",
     "colorCode": "8001",
     "image": "images/amigurumi/8001 - BRANCO.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "8176 - OFF-WHITE",
@@ -21,13 +21,13 @@
     "name": "3061 - GARDÊNIA",
     "colorCode": "3061",
     "image": "images/amigurumi/3061 - GARDÊNIA.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "7564 - PORCELANA",
     "colorCode": "7564",
     "image": "images/amigurumi/7564 - PORCELANA.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "7563 - CHANTILLY",
@@ -39,7 +39,7 @@
     "name": "7650 - AMÊNDOA",
     "colorCode": "7650",
     "image": "images/amigurumi/7650 - AMÊNDOA.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "7625 - CASTANHA",
@@ -63,7 +63,7 @@
     "name": "7713 - LENHA",
     "colorCode": "7713",
     "image": "images/amigurumi/7713 - LENHA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7567 - CACAU",
@@ -177,7 +177,7 @@
     "name": "4093 - TAFETÁ",
     "colorCode": "4093",
     "image": "images/amigurumi/4093 - TAFETÁ.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "4171 - TROPICÁLIA",
@@ -303,7 +303,7 @@
     "name": "3047 - SOPRO",
     "colorCode": "3047",
     "image": "images/amigurumi/3047 - SOPRO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "4092 - ORGANZA",
@@ -333,7 +333,7 @@
     "name": "6161 - VIOLETA",
     "colorCode": "6161",
     "image": "images/amigurumi/6161 - VIOLETA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "6802 - MALVA",
@@ -393,7 +393,7 @@
     "name": "2930 - NETUNO",
     "colorCode": "2930",
     "image": "images/amigurumi/2930 - NETUNO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2927 - AQUÁRIO",
@@ -411,7 +411,7 @@
     "name": "2137 - HORTÊNSIA",
     "colorCode": "2137",
     "image": "images/amigurumi/2137 - HORTÊNSIA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "2500 - ACQUA",
@@ -579,7 +579,7 @@
     "name": "8990 - PRETO",
     "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "8736 - ÍNDIGO",
