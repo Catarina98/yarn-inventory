@@ -111,7 +111,7 @@
     "name": "7076 - CARAMELITO",
     "colorCode": "7076",
     "image": "images/amigurumi/7076 - CARAMELITO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7072 - CENTEIO",
@@ -141,7 +141,7 @@
     "name": "1205 - MAGNÓLIA",
     "colorCode": "1205",
     "image": "images/amigurumi/1205 - MAGNÓLIA.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "1289 - CANÁRIO",
@@ -525,7 +525,7 @@
     "name": "5800 - PISTACHE",
     "colorCode": "5800",
     "image": "images/amigurumi/5800 - PISTACHE.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "5089 - SELVA",
@@ -555,7 +555,7 @@
     "name": "8013 - GLACIAL",
     "colorCode": "8013",
     "image": "images/amigurumi/8013 - GLACIAL.png",
-    "stock": 1
+    "stock": 2
   },
   {
     "name": "8008 - PEDREIRA",
