@@ -3,7 +3,7 @@
     "name": "8001 - BRANCO",
     "colorCode": "8001",
     "image": "images/amigurumi/8001 - BRANCO.png",
-    "stock": 1
+    "stock": 0.5
   },
   {
     "name": "8176 - OFF-WHITE",
@@ -519,7 +519,7 @@
     "name": "5203 - GREENERY",
     "colorCode": "5203",
     "image": "images/amigurumi/5203 - GREENERY.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "5800 - PISTACHE",
@@ -579,7 +579,7 @@
     "name": "8990 - PRETO",
     "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "8736 - ÍNDIGO",
