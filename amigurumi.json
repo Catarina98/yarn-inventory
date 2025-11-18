@@ -3,7 +3,7 @@
     "name": "8001 - BRANCO",
     "colorCode": "8001",
     "image": "images/amigurumi/8001 - BRANCO.png",
-    "stock": 0.5
+    "stock": 1.5
   },
   {
     "name": "8176 - OFF-WHITE",
@@ -21,7 +21,7 @@
     "name": "3061 - GARDÊNIA",
     "colorCode": "3061",
     "image": "images/amigurumi/3061 - GARDÊNIA.png",
-    "stock": 0.8
+    "stock": 1.8
   },
   {
     "name": "7564 - PORCELANA",
@@ -75,7 +75,7 @@
     "name": "7569 - BRIGADEIRO",
     "colorCode": "7569",
     "image": "images/amigurumi/7569 - BRIGADEIRO.png",
-    "stock": 0
+    "stock": 1
   },
   {
     "name": "7400 - BROWNIE",
@@ -207,7 +207,7 @@
     "name": "3583 - CEREJA",
     "colorCode": "3583",
     "image": "images/amigurumi/3583 - CEREJA.png",
-    "stock": 0.4
+    "stock": 1.4
   },
   {
     "name": "3402 - VERMELHO-CÍRCULO",
@@ -291,7 +291,7 @@
     "name": "3148 - MACADÂMIA",
     "colorCode": "3148",
     "image": "images/amigurumi/3148 - MACADÂMIA.png",
-    "stock": 0.3
+    "stock": 1
   },
   {
     "name": "4224 - PEACH FUZZ",
@@ -519,7 +519,7 @@
     "name": "5203 - GREENERY",
     "colorCode": "5203",
     "image": "images/amigurumi/5203 - GREENERY.png",
-    "stock": 0.8
+    "stock": 1.4
   },
   {
     "name": "5800 - PISTACHE",
@@ -579,7 +579,7 @@
     "name": "8990 - PRETO",
     "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 0.8
+    "stock": 1.6
   },
   {
     "name": "8736 - ÍNDIGO",
