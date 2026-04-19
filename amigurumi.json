@@ -27,7 +27,7 @@
     "name": "7564 - PORCELANA",
     "colorCode": "7564",
     "image": "images/amigurumi/7564 - PORCELANA.png",
-    "stock": 1.2
+    "stock": 0.8
   },
   {
     "name": "7563 - CHANTILLY",
@@ -75,13 +75,13 @@
     "name": "7569 - BRIGADEIRO",
     "colorCode": "7569",
     "image": "images/amigurumi/7569 - BRIGADEIRO.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "7400 - BROWNIE",
     "colorCode": "7400",
     "image": "images/amigurumi/7400 - BROWNIE.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "7220 - TÂMARA",
@@ -111,13 +111,13 @@
     "name": "7076 - CARAMELITO",
     "colorCode": "7076",
     "image": "images/amigurumi/7076 - CARAMELITO.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "7072 - CENTEIO",
     "colorCode": "7072",
     "image": "images/amigurumi/7072 - CENTEIO.png",
-    "stock": 1
+    "stock": 0.6
   },
   {
     "name": "1112 - CREME",
@@ -195,7 +195,7 @@
     "name": "4456 - LARANJA",
     "colorCode": "4456",
     "image": "images/amigurumi/4456 - LARANJA.png",
-    "stock": 1
+    "stock": 0.7
   },
   {
     "name": "4445 - TANGERINA",
@@ -459,7 +459,7 @@
     "name": "5076 - HERA",
     "colorCode": "5076",
     "image": "images/amigurumi/5076 - HERA.png",
-    "stock": 1
+    "stock": 0.8
   },
   {
     "name": "5398 - MUSGO",
@@ -471,7 +471,7 @@
     "name": "5767 - BANDEIRA",
     "colorCode": "5767",
     "image": "images/amigurumi/5767 - BANDEIRA.png",
-    "stock": 1
+    "stock": 0.6
   },
   {
     "name": "5669 - TIFFANY",
@@ -579,7 +579,7 @@
     "name": "8990 - PRETO",
     "colorCode": "8990",
     "image": "images/amigurumi/8990 - PRETO.png",
-    "stock": 1.6
+    "stock": 0.7
   },
   {
     "name": "8736 - ÍNDIGO",
