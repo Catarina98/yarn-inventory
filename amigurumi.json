@@ -75,13 +75,13 @@
     "name": "7569 - BRIGADEIRO",
     "colorCode": "7569",
     "image": "images/amigurumi/7569 - BRIGADEIRO.png",
-    "stock": 0.8
+    "stock": 1.8
   },
   {
     "name": "7400 - BROWNIE",
     "colorCode": "7400",
     "image": "images/amigurumi/7400 - BROWNIE.png",
-    "stock": 0.8
+    "stock": 1.8
   },
   {
     "name": "7220 - TÂMARA",
@@ -117,7 +117,7 @@
     "name": "7072 - CENTEIO",
     "colorCode": "7072",
     "image": "images/amigurumi/7072 - CENTEIO.png",
-    "stock": 0.6
+    "stock": 1.6
   },
   {
     "name": "1112 - CREME",
@@ -213,7 +213,7 @@
     "name": "3402 - VERMELHO-CÍRCULO",
     "colorCode": "3402",
     "image": "images/amigurumi/3402 - VERMELHO-CÍRCULO.png",
-    "stock": 1.2
+    "stock": 0.6
   },
   {
     "name": "3528 - CARMIM",
@@ -261,7 +261,7 @@
     "name": "3048 - FLAMINGO",
     "colorCode": "3048",
     "image": "images/amigurumi/3048 - FLAMINGO.png",
-    "stock": 1
+    "stock": 0.6
   },
   {
     "name": "3182 - PITAYA",
@@ -435,7 +435,7 @@
     "name": "2829 - AZUL-BIC",
     "colorCode": "2829",
     "image": "images/amigurumi/2829 - AZUL-BIC.png",
-    "stock": 1
+    "stock": 0.6
   },
   {
     "name": "2745 - MARINHEIRO",
