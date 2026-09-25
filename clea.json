@@ -1,0 +1,500 @@
+[
+  {
+    "name": "8001 - BRANCO",
+    "colorCode": "8001",
+    "image": "images/8001 - BRANCO.png",
+    "stock": 0
+  },
+  {
+    "name": "8176 - OFF - WHITE",
+    "colorCode": "8176",
+    "image": "images/8176 - OFF - WHITE.png",
+    "stock": 0
+  },
+  {
+    "name": "20 - NATURAL",
+    "colorCode": "20",
+    "image": "images/20 - NATURAL.png",
+    "stock": 0
+  },
+  {
+    "name": "7684 - PORCELANA",
+    "colorCode": "7684",
+    "image": "images/7684 - PORCELANA.png",
+    "stock": 0
+  },
+  {
+    "name": "7650 - AMÊNDOAS",
+    "colorCode": "7650",
+    "image": "images/7650 - AMÊNDOAS.png",
+    "stock": 0
+  },
+  {
+    "name": "7625 - CASTANHA",
+    "colorCode": "7625",
+    "image": "images/7625 - CASTANHA.png",
+    "stock": 0
+  },
+  {
+    "name": "7148 - CRAFT",
+    "colorCode": "7148",
+    "image": "images/7148 - CRAFT.png",
+    "stock": 0
+  },
+  {
+    "name": "7382  - CHOCOLATE",
+    "colorCode": "7382",
+    "image": "images/7382  - CHOCOLATE.png",
+    "stock": 0
+  },
+  {
+    "name": "7504 - MOGNO",
+    "colorCode": "7504",
+    "image": "images/7504 - MOGNO.png",
+    "stock": 0
+  },
+  {
+    "name": "1074 - CREME",
+    "colorCode": "1074",
+    "image": "images/1074 - CREME.png",
+    "stock": 0
+  },
+  {
+    "name": "1317 - SOLAR",
+    "colorCode": "1317",
+    "image": "images/1317 - SOLAR.png",
+    "stock": 0
+  },
+  {
+    "name": "1236 - LIMA",
+    "colorCode": "1236",
+    "image": "images/1236 - LIMA.png",
+    "stock": 0
+  },
+  {
+    "name": "1779 - AMARELO-CÍTRICO",
+    "colorCode": "1779",
+    "image": "images/1779 - AMARELO-CÍTRICO.png",
+    "stock": 0
+  },
+  {
+    "name": "1709 - GOUDA",
+    "colorCode": "1709",
+    "image": "images/1709 - GOUDA.png",
+    "stock": 0
+  },
+  {
+    "name": "1289 - CANÁRIO",
+    "colorCode": "1289",
+    "image": "images/1289 - CANÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "7030 - MOSTARDA",
+    "colorCode": "7030",
+    "image": "images/7030 - MOSTARDA.png",
+    "stock": 0
+  },
+  {
+    "name": "4156 - CENOURA",
+    "colorCode": "4156",
+    "image": "images/4156 - CENOURA.png",
+    "stock": 0
+  },
+  {
+    "name": "4456 - LARANJA",
+    "colorCode": "4456",
+    "image": "images/4456 - LARANJA.png",
+    "stock": 0
+  },
+  {
+    "name": "4445 - TANGERINA",
+    "colorCode": "4445",
+    "image": "images/4445 - TANGERINA.png",
+    "stock": 0
+  },
+  {
+    "name": "7529 - TERRACOTA",
+    "colorCode": "7529",
+    "image": "images/7529 - TERRACOTA.png",
+    "stock": 0
+  },
+  {
+    "name": "3581 - PIMENTA",
+    "colorCode": "3581",
+    "image": "images/3581 - PIMENTA.png",
+    "stock": 0
+  },
+  {
+    "name": "3402 - VERMELHO-CÍRCULO",
+    "colorCode": "3402",
+    "image": "images/3402 - VERMELHO-CÍRCULO.png",
+    "stock": 0
+  },
+  {
+    "name": "3528 - CARMIM",
+    "colorCode": "3528",
+    "image": "images/3528 - CARMIM.png",
+    "stock": 0
+  },
+  {
+    "name": "3635 - PAIXÃO",
+    "colorCode": "3635",
+    "image": "images/3635 - PAIXÃO.png",
+    "stock": 0
+  },
+  {
+    "name": "3611 - RUBI",
+    "colorCode": "3611",
+    "image": "images/3611 - RUBI.png",
+    "stock": 0
+  },
+  {
+    "name": "7136 - MARSALA",
+    "colorCode": "7136",
+    "image": "images/7136 - MARSALA.png",
+    "stock": 0
+  },
+  {
+    "name": "3794 - BORDÔ",
+    "colorCode": "3794",
+    "image": "images/3794 - BORDÔ.png",
+    "stock": 0
+  },
+  {
+    "name": "6133 - PINK",
+    "colorCode": "6133",
+    "image": "images/6133 - PINK.png",
+    "stock": 0
+  },
+  {
+    "name": "6116 - ROSA-CHOQUE",
+    "colorCode": "6116",
+    "image": "images/6116 - ROSA-CHOQUE.png",
+    "stock": 0
+  },
+  {
+    "name": "3839 - ROSA-CÍTRICO",
+    "colorCode": "3839",
+    "image": "images/3839 - ROSA-CÍTRICO.png",
+    "stock": 0
+  },
+  {
+    "name": "3048 - FLAMINGO",
+    "colorCode": "3048",
+    "image": "images/3048 - FLAMINGO.png",
+    "stock": 0
+  },
+  {
+    "name": "3182 - PITAYA",
+    "colorCode": "3182",
+    "image": "images/3182 - PITAYA.png",
+    "stock": 0
+  },
+  {
+    "name": "6085 - BALÉ",
+    "colorCode": "6085",
+    "image": "images/6085 - BALÉ.png",
+    "stock": 0
+  },
+  {
+    "name": "3131 - CHICLETE",
+    "colorCode": "3131",
+    "image": "images/3131 - CHICLETE.png",
+    "stock": 0
+  },
+  {
+    "name": "3526 - ROSA-CANDY",
+    "colorCode": "3526",
+    "image": "images/3526 - ROSA-CANDY.png",
+    "stock": 0
+  },
+  {
+    "name": "3227 - ROSA-ANTIGO",
+    "colorCode": "3227",
+    "image": "images/3227 - ROSA-ANTIGO.png",
+    "stock": 0
+  },
+  {
+    "name": "4514 - PÊSSEGO",
+    "colorCode": "4514",
+    "image": "images/4514 - PÊSSEGO.png",
+    "stock": 0
+  },
+  {
+    "name": "4224 - PEACH FUZZ",
+    "colorCode": "4224",
+    "image": "images/4224 - PEACH FUZZ.png",
+    "stock": 0
+  },
+  {
+    "name": "6029 - ORQUÍDEA",
+    "colorCode": "6029",
+    "image": "images/6029 - ORQUÍDEA.png",
+    "stock": 0
+  },
+  {
+    "name": "6399 - AZALEIA",
+    "colorCode": "6399",
+    "image": "images/6399 - AZALEIA.png",
+    "stock": 0
+  },
+  {
+    "name": "6567 - ROXO-CÍTRICO",
+    "colorCode": "6567",
+    "image": "images/6567 - ROXO-CÍTRICO.png",
+    "stock": 0
+  },
+  {
+    "name": "6313 - AMORA",
+    "colorCode": "6313",
+    "image": "images/6313 - AMORA.png",
+    "stock": 0
+  },
+  {
+    "name": "2927 - AQUÁRIO",
+    "colorCode": "2927",
+    "image": "images/2927 - AQUÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "2137 - HORTÊNSIA",
+    "colorCode": "2137",
+    "image": "images/2137 - HORTÊNSIA.png",
+    "stock": 0
+  },
+  {
+    "name": "2151 - CÉU",
+    "colorCode": "2151",
+    "image": "images/2151 - CÉU.png",
+    "stock": 0
+  },
+  {
+    "name": "2194 - TURQUESA",
+    "colorCode": "2194",
+    "image": "images/2194 - TURQUESA.png",
+    "stock": 0
+  },
+  {
+    "name": "2500 - ACQUA",
+    "colorCode": "2500",
+    "image": "images/2500 - ACQUA.png",
+    "stock": 0
+  },
+  {
+    "name": "2314 - ROYAL",
+    "colorCode": "2314",
+    "image": "images/2314 - ROYAL.png",
+    "stock": 0
+  },
+  {
+    "name": "2829 - AZUL-BIC",
+    "colorCode": "2829",
+    "image": "images/2829 - AZUL-BIC.png",
+    "stock": 0
+  },
+  {
+    "name": "2856 - ANIL-PROFUNDO",
+    "colorCode": "2856",
+    "image": "images/2856 - ANIL-PROFUNDO.png",
+    "stock": 0
+  },
+  {
+    "name": "5073 - PETRÓLEO",
+    "colorCode": "5073",
+    "image": "images/5073 - PETRÓLEO.png",
+    "stock": 0
+  },
+  {
+    "name": "5556 - TIFFANY",
+    "colorCode": "5556",
+    "image": "images/5556 - TIFFANY.png",
+    "stock": 0
+  },
+  {
+    "name": "5743 - NEO MINT",
+    "colorCode": "5743",
+    "image": "images/5743 - NEO MINT.png",
+    "stock": 0
+  },
+  {
+    "name": "5203 - GREENERY",
+    "colorCode": "5203",
+    "image": "images/5203 - GREENERY.png",
+    "stock": 0
+  },
+  {
+    "name": "5800 - PISTACHE",
+    "colorCode": "5800",
+    "image": "images/5800 - PISTACHE.png",
+    "stock": 0
+  },
+  {
+    "name": "5947 - VERDE-CÍTRICO",
+    "colorCode": "5947",
+    "image": "images/5947 - VERDE-CÍTRICO.png",
+    "stock": 0
+  },
+  {
+    "name": "5638 - TREVO",
+    "colorCode": "5638",
+    "image": "images/5638 - TREVO.png",
+    "stock": 0
+  },
+  {
+    "name": "5767 - BANDEIRA",
+    "colorCode": "5767",
+    "image": "images/5767 - BANDEIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "5363 - ESMERALDA",
+    "colorCode": "5363",
+    "image": "images/5363 - ESMERALDA.png",
+    "stock": 0
+  },
+  {
+    "name": "5398 - MUSGO",
+    "colorCode": "5398",
+    "image": "images/5398 - MUSGO.png",
+    "stock": 0
+  },
+  {
+    "name": "5368 - MILITAR",
+    "colorCode": "5368",
+    "image": "images/5368 - MILITAR.png",
+    "stock": 0
+  },
+  {
+    "name": "8473 - ALUMÍNIO",
+    "colorCode": "8473",
+    "image": "images/8473 - ALUMÍNIO.png",
+    "stock": 0
+  },
+  {
+    "name": "8797 - AÇO",
+    "colorCode": "8797",
+    "image": "images/8797 - AÇO.png",
+    "stock": 0
+  },
+  {
+    "name": "8990 - PRETO",
+    "colorCode": "8990",
+    "image": "images/8990 - PRETO.png",
+    "stock": 0
+  },
+  {
+    "name": "9900 - AREIA",
+    "colorCode": "9900",
+    "image": "images/9900 - AREIA.png",
+    "stock": 0
+  },
+  {
+    "name": "9435# - DESERTO",
+    "colorCode": "9435#",
+    "image": "images/9435# - DESERTO.png",
+    "stock": 0
+  },
+  {
+    "name": "9368# - RAIO DE SOL",
+    "colorCode": "9368#",
+    "image": "images/9368# - RAIO DE SOL.png",
+    "stock": 0
+  },
+  {
+    "name": "9059# - ABÓBORA",
+    "colorCode": "9059#",
+    "image": "images/9059# - ABÓBORA.png",
+    "stock": 0
+  },
+  {
+    "name": "9165# - HIBISCO AMARELO",
+    "colorCode": "9165#",
+    "image": "images/9165# - HIBISCO AMARELO.png",
+    "stock": 0
+  },
+  {
+    "name": "9284# - BAILARINA",
+    "colorCode": "9284#",
+    "image": "images/9284# - BAILARINA.png",
+    "stock": 0
+  },
+  {
+    "name": "9427# - FLOR",
+    "colorCode": "9427#",
+    "image": "images/9427# - FLOR.png",
+    "stock": 0
+  },
+  {
+    "name": "9202# - ANTÚRIO",
+    "colorCode": "9202#",
+    "image": "images/9202# - ANTÚRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "9153# - CABARÉ",
+    "colorCode": "9153#",
+    "image": "images/9153# - CABARÉ.png",
+    "stock": 0
+  },
+  {
+    "name": "9587# - BONECA",
+    "colorCode": "9587#",
+    "image": "images/9587# - BONECA.png",
+    "stock": 0
+  },
+  {
+    "name": "9113# - CASCATA",
+    "colorCode": "9113#",
+    "image": "images/9113# - CASCATA.png",
+    "stock": 0
+  },
+  {
+    "name": "9172# - AMULETO",
+    "colorCode": "9172#",
+    "image": "images/9172# - AMULETO.png",
+    "stock": 0
+  },
+  {
+    "name": "9462# - OLIVIA",
+    "colorCode": "9462#",
+    "image": "images/9462# - OLIVIA.png",
+    "stock": 0
+  },
+  {
+    "name": "9392# - FOLHA",
+    "colorCode": "9392#",
+    "image": "images/9392# - FOLHA.png",
+    "stock": 0
+  },
+  {
+    "name": "9337 - MARSHMALLOW",
+    "colorCode": "9337",
+    "image": "images/9337 - MARSHMALLOW.png",
+    "stock": 0
+  },
+  {
+    "name": "9490# - CARROSSEL",
+    "colorCode": "9490#",
+    "image": "images/9490# - CARROSSEL.png",
+    "stock": 0
+  },
+  {
+    "name": "9976# - PARQUE",
+    "colorCode": "9976#",
+    "image": "images/9976# - PARQUE.png",
+    "stock": 0
+  },
+  {
+    "name": "9233 - ÁFRICA",
+    "colorCode": "9233",
+    "image": "images/9233 - ÁFRICA.png",
+    "stock": 0
+  },
+  {
+    "name": "9016# - ZEBRA",
+    "colorCode": "9016#",
+    "image": "images/9016# - ZEBRA.png",
+    "stock": 0
+  }
+]

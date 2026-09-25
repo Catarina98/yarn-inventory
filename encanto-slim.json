@@ -1,0 +1,230 @@
+[
+  {
+    "name": "8176 - OFF-WHITE",
+    "colorCode": "8176",
+    "image": "images/8176 - OFF-WHITE.png",
+    "stock": 0
+  },
+  {
+    "name": "7650 - AMÊNDOA",
+    "colorCode": "7650",
+    "image": "images/7650 - AMÊNDOA.png",
+    "stock": 0
+  },
+  {
+    "name": "7119 - AREIA CLARA",
+    "colorCode": "7119",
+    "image": "images/7119 - AREIA CLARA.png",
+    "stock": 0
+  },
+  {
+    "name": "7059 - SÂNDALO",
+    "colorCode": "7059",
+    "image": "images/7059 - SÂNDALO.png",
+    "stock": 0
+  },
+  {
+    "name": "1289 - CANÁRIO",
+    "colorCode": "1289",
+    "image": "images/1289 - CANÁRIO.png",
+    "stock": 0
+  },
+  {
+    "name": "7122 - OURO LÍQUIDO",
+    "colorCode": "7122",
+    "image": "images/7122 - OURO LÍQUIDO.png",
+    "stock": 0
+  },
+  {
+    "name": "1013 - CAPIM DOURADO",
+    "colorCode": "1013",
+    "image": "images/1013 - CAPIM DOURADO.png",
+    "stock": 0
+  },
+  {
+    "name": "7326 - OURO VELHO",
+    "colorCode": "7326",
+    "image": "images/7326 - OURO VELHO.png",
+    "stock": 0
+  },
+  {
+    "name": "7577 - OURO",
+    "colorCode": "7577",
+    "image": "images/7577 - OURO.png",
+    "stock": 0
+  },
+  {
+    "name": "7031 - LICOR",
+    "colorCode": "7031",
+    "image": "images/7031 - LICOR.png",
+    "stock": 0
+  },
+  {
+    "name": "4160 - Entardecer",
+    "colorCode": "4160",
+    "image": "images/4160 - Entardecer.png",
+    "stock": 0
+  },
+  {
+    "name": "3528 - CARMIM",
+    "colorCode": "3528",
+    "image": "images/3528 - CARMIM.png",
+    "stock": 0
+  },
+  {
+    "name": "3794 - BORDÔ",
+    "colorCode": "3794",
+    "image": "images/3794 - BORDÔ.png",
+    "stock": 0
+  },
+  {
+    "name": "7154 - SAIBRO",
+    "colorCode": "7154",
+    "image": "images/7154 - SAIBRO.png",
+    "stock": 0
+  },
+  {
+    "name": "7852 - MARMELADA",
+    "colorCode": "7852",
+    "image": "images/7852 - MARMELADA.png",
+    "stock": 0
+  },
+  {
+    "name": "7382 - CHOCOLATE",
+    "colorCode": "7382",
+    "image": "images/7382 - CHOCOLATE.png",
+    "stock": 0
+  },
+  {
+    "name": "7147 - EXPRESSO",
+    "colorCode": "7147",
+    "image": "images/7147 - EXPRESSO.png",
+    "stock": 0
+  },
+  {
+    "name": "6802 - MALVA",
+    "colorCode": "6802",
+    "image": "images/6802 - MALVA.png",
+    "stock": 0
+  },
+  {
+    "name": "3201 - CAMAFEU",
+    "colorCode": "3201",
+    "image": "images/3201 - CAMAFEU.png",
+    "stock": 0
+  },
+  {
+    "name": "3420 - LUXO",
+    "colorCode": "3420",
+    "image": "images/3420 - LUXO.png",
+    "stock": 0
+  },
+  {
+    "name": "3754 - ROSA PINK",
+    "colorCode": "3754",
+    "image": "images/3754 - ROSA PINK.png",
+    "stock": 0
+  },
+  {
+    "name": "2307 - MARÉ",
+    "colorCode": "2307",
+    "image": "images/2307 - MARÉ.png",
+    "stock": 0
+  },
+  {
+    "name": "5169 - Azul Sereia",
+    "colorCode": "5169",
+    "image": "images/5169 - Azul Sereia.png",
+    "stock": 0
+  },
+  {
+    "name": "2550 -AZUL BIC",
+    "colorCode": "2550",
+    "image": "images/2550 -AZUL BIC.png",
+    "stock": 0
+  },
+  {
+    "name": "5745 - EUCALIPTO",
+    "colorCode": "5745",
+    "image": "images/5745 - EUCALIPTO.png",
+    "stock": 0
+  },
+  {
+    "name": "5105 - SÁLVIA",
+    "colorCode": "5105",
+    "image": "images/5105 - SÁLVIA.png",
+    "stock": 0
+  },
+  {
+    "name": "5767 - BANDEIRA",
+    "colorCode": "5767",
+    "image": "images/5767 - BANDEIRA.png",
+    "stock": 0
+  },
+  {
+    "name": "5398 - MUSGO",
+    "colorCode": "5398",
+    "image": "images/5398 - MUSGO.png",
+    "stock": 0
+  },
+  {
+    "name": "8473 - ALUMÍNIO",
+    "colorCode": "8473",
+    "image": "images/8473 - ALUMÍNIO.png",
+    "stock": 0
+  },
+  {
+    "name": "8069 - Matrix",
+    "colorCode": "8069",
+    "image": "images/8069 - Matrix.png",
+    "stock": 0
+  },
+  {
+    "name": "8990 - PRETO",
+    "colorCode": "8990",
+    "image": "images/8990 - PRETO.png",
+    "stock": 0
+  },
+  {
+    "name": "9818 - NATALINA",
+    "colorCode": "9818",
+    "image": "images/9818 - NATALINA.png",
+    "stock": 0
+  },
+  {
+    "name": "9070 - GUIRLANDA",
+    "colorCode": "9070",
+    "image": "images/9070 - GUIRLANDA.png",
+    "stock": 0
+  },
+  {
+    "name": "9055 - ESTRELA",
+    "colorCode": "9055",
+    "image": "images/9055 - ESTRELA.png",
+    "stock": 0
+  },
+  {
+    "name": "9053 - SINOS",
+    "colorCode": "9053",
+    "image": "images/9053 - SINOS.png",
+    "stock": 0
+  },
+  {
+    "name": "9777 - CHAMPAGNE",
+    "colorCode": "9777",
+    "image": "images/9777 - CHAMPAGNE.png",
+    "stock": 0
+  },
+  {
+    "name": "9390 - SAVANA",
+    "colorCode": "9390",
+    "image": "images/9390 - SAVANA.png",
+    "stock": 0
+  },
+  {
+    "name": "9926 - SCARLET",
+    "colorCode": "9926",
+    "image": "images/9926 - SCARLET.png",
+    "stock": 0
+  }
+]

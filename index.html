@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Yarn Inventory</title>
   <style>
-    body { font-family: sans-serif; margin: 2em; }
-    .buttons { margin-bottom: 1em; display: flex; border-bottom: 2px solid #ede8e8;}
-    .buttons button { margin-right: 10px; padding: 8px 16px; }
-    .grid { display: flex; flex-wrap: wrap; gap: 16px; }
+    body {
+      font-family: sans-serif;
+      margin: 2em;
+    }
+
+    .buttons {
+      margin-bottom: 1em;
+      display: flex;
+      border-bottom: 2px solid #ede8e8;
+    }
+
+    .buttons button {
+      margin-right: 10px;
+      padding: 8px 16px;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
     .yarn-card {
       width: 150px;
       border: 1px solid #ddd;
@@ -15,72 +34,86 @@
       text-align: center;
       border-radius: 8px;
     }
-    .yarn-card img { width: 100%; border-radius: 6px; }
-    .stock { margin-top: 8px; font-weight: bold; }
-    h1{text-align: center;}
-    /* From Uiverse.io by satyamchaudharydev */ 
-button {
-  padding: 0;
-  margin: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
 
-button {
-  --primary-color: #111;
-  --hovered-color: #c84747;
-  position: relative;
-  display: flex;
-  font-weight: 600;
-  font-size: 20px;
-  gap: 0.5rem;
-  align-items: center;
-}
+    .yarn-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
 
-button p {
-  margin: 0;
-  position: relative;
-  font-size: 20px;
-  color: var(--primary-color);
-}
+    .stock {
+      margin-top: 8px;
+      font-weight: bold;
+    }
 
-button::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  left: 0;
-  bottom: -2px;
-  background: var(--hovered-color);
-  height: 2px;
-  transition: 0.3s ease-out;
-}
+    h1 {
+      text-align: center;
+    }
 
-button p::before {
-  position: absolute;
-  /*   box-sizing: border-box; */
-  content: "Subscribe";
-  width: 0%;
-  inset: 0;
-  color: var(--hovered-color);
-  overflow: hidden;
-  transition: 0.3s ease-out;
-}
+    /* From Uiverse.io by satyamchaudharydev */
+    button {
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
 
-button:hover::after, button.active::after {
-  width: 100%;
-}
+    button {
+      --primary-color: #111;
+      --hovered-color: #c84747;
+      position: relative;
+      display: flex;
+      font-weight: 600;
+      font-size: 20px;
+      gap: 0.5rem;
+      align-items: center;
+    }
 
-button:hover p::before, button.active p::before {
-  width: 100%;
-}
+    button p {
+      margin: 0;
+      position: relative;
+      font-size: 20px;
+      color: var(--primary-color);
+    }
 
-.edit-buttons {
-    margin-top: 1em;
-    display: flex;
-    justify-content: end;
-    gap: 20px;
-}
+    button::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      left: 0;
+      bottom: -2px;
+      background: var(--hovered-color);
+      height: 2px;
+      transition: 0.3s ease-out;
+    }
+
+    button p::before {
+      position: absolute;
+      /*   box-sizing: border-box; */
+      content: "Subscribe";
+      width: 0%;
+      inset: 0;
+      color: var(--hovered-color);
+      overflow: hidden;
+      transition: 0.3s ease-out;
+    }
+
+    button:hover::after,
+    button.active::after {
+      width: 100%;
+    }
+
+    button:hover p::before,
+    button.active p::before {
+      width: 100%;
+    }
+
+    .edit-buttons {
+      margin-top: 1em;
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+    }
 
 
     /* Add styles for no-stock class */
@@ -88,9 +121,9 @@ button:hover p::before, button.active p::before {
       opacity: 0.5;
       background-color: #f8d7da;
     }
-
   </style>
 </head>
+
 <body>
 
   <h1>🧶 Yarn Inventory</h1>
@@ -99,13 +132,17 @@ button:hover p::before, button.active p::before {
     <button onclick="loadStock('amigurumi.json')">Amigurumi</button>
     <button onclick="loadStock('amigurumi-brilho.json')">Amigurumi Brilho</button>
     <button onclick="loadStock('barroco.json')">Barroco</button>
+    <button onclick="loadStock('anne.json')">Anne</button>
+    <button onclick="loadStock('clea.json')">Clea</button>
     <button onclick="loadStock('clea-duplo.json')">Clea Duplo</button>
     <button onclick="loadStock('charme.json')">Charme</button>
     <button onclick="loadStock('encanto.json')">Encanto</button>
+    <button onclick="loadStock('encanto-slim.json')">Encanto Slim</button>
+
     <!-- Add more as needed -->
   </div>
 
-  <div id="inventory" class="grid"></div>  
+  <div id="inventory" class="grid"></div>
 
   <div class="edit-buttons">
     <button onclick="sortByStock()">📊 Sort by Stock</button>
@@ -117,7 +154,7 @@ button:hover p::before, button.active p::before {
     let currentData = [];
     let currentFile = '';
     let editMode = false;
-  
+
     function setActiveButton(file) {
       const buttons = document.querySelectorAll('.buttons button');
       buttons.forEach(async (btn) => {
@@ -129,7 +166,7 @@ button:hover p::before, button.active p::before {
         }
       });
     }
-  
+
     async function getStockInfo(file) {
       try {
         const response = await fetch(file);
@@ -142,106 +179,118 @@ button:hover p::before, button.active p::before {
         return { inStock: 0, total: 0 };
       }
     }
-  
+
     async function loadStock(file) {
       setActiveButton(file);
-  
+
       currentFile = file;
       editMode = false;
       toggleEditButton(false);
-  
+
       const container = document.getElementById('inventory');
       container.innerHTML = 'Loading...';
-  
+
       try {
         const response = await fetch(file);
         const data = await response.json();
-  
+
         // Save the data globally
         currentData = data;
-  
+
         renderInventory();
       } catch (err) {
         container.innerHTML = '❌ Failed to load stock.';
         console.error(err);
       }
     }
-  
+
     function renderInventory() {
-  const container = document.getElementById('inventory');
-  container.innerHTML = '';
+      const container = document.getElementById('inventory');
+      container.innerHTML = '';
 
-  currentData.forEach((item, index) => {
-    const div = document.createElement('div');
-    div.className = 'yarn-card';
-    if (item.stock === 0) {
-      div.classList.add('no-stock');
-    }
+      currentData.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'yarn-card';
+        if (item.stock === 0) {
+          div.classList.add('no-stock');
+        }
 
-    let stockHTML = editMode
-      ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
-      : `<div class="stock">Stock: ${item.stock}</div>`;
+        let stockHTML = editMode
+          ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
+          : `<div class="stock">Stock: ${item.stock}</div>`;
 
-    // Add a link only for the Amigurumi tab
-    let linkHTML = '';
-    if (item.colorCode !== undefined) {
-      let colorSearch = '';
+        // Add a link only for the Amigurumi tab
+        let linkHTML = '';
+        if (item.colorCode !== undefined) {
+          let colorSearch = '';
 
-      switch(currentFile) {
-        case 'amigurumi.json':
-          colorSearch = `amigurumi+círculo`;
-          break;
-        case 'amigurumi-brilho.json':
-          colorSearch = `amigurumi+brilho+círculo`;
-          break;
-        case 'barroco.json':
-          colorSearch = `Barroco+Maxcolor+N.6+Círculo`;
-          break;
-        case 'clea-duplo.json':
-          colorSearch = `clea+duplo+círculo`;
-          break;
-        case 'charme.json':
-          colorSearch = `charme+círculo`;
-          break;
-        case 'encanto.json':
-          colorSearch = `encanto+círculo`;
-          break;
-        default:
-          colorSearch = '';
-      }
+          switch (currentFile) {
+            case 'amigurumi.json':
+              colorSearch = `amigurumi+círculo`;
+              break;
+            case 'amigurumi-brilho.json':
+              colorSearch = `amigurumi+brilho+círculo`;
+              break;
+            case 'barroco.json':
+              colorSearch = `Barroco+Maxcolor+N.6+Círculo`;
+              break;
+            case 'clea-duplo.json':
+              colorSearch = `clea+duplo+círculo`;
+              break;
+            case 'charme.json':
+              colorSearch = `charme+círculo`;
+              break;
+            case 'encanto.json':
+              colorSearch = `encanto+círculo`;
+              break;
+            case 'encanto-slim.json':
+              colorSearch = `encanto+slim+círculo`;
+              break;
+            case 'anne.json':
+              colorSearch = `anne+círculo`;
+              break;
+            case 'clea.json':
+              colorSearch = `clea+círculo`;
+              break;
+            case 'clea-duplo.json':
+              colorSearch = `clea+duplo+círculo`;
+              break;
+            default:
+              colorSearch = '';
+          }
 
-      if(colorSearch !== ''){
-        linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=${colorSearch}+${item.colorCode}" target="_blank">🔗 View Online</a>`;
-      }
-    }
+          if (colorSearch !== '') {
+            linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=${colorSearch}+${item.colorCode}" target="_blank">🔗 View Online</a>`;
+          }
+        }
 
-    div.innerHTML = `
+        div.innerHTML = `
       <img src="${item.image}" alt="${item.name}">
       <div>${item.name}</div>
       ${stockHTML}
       ${linkHTML}
     `;
-    container.appendChild(div);
-  });
+        container.appendChild(div);
+      });
 
-  document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
-}
-  
+      document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
+    }
+
     function toggleEdit() {
       editMode = !editMode;
       toggleEditButton(editMode);
       renderInventory();
     }
-  
+
     function toggleEditButton(state) {
       const btn = document.getElementById('edit-btn');
       btn.textContent = state ? '🔒 Exit Edit Mode' : '✏️ Edit Stock';
     }
-  
+
     function updateStock(index, value) {
       currentData[index].stock = parseInt(value, 10);
     }
-  
+
     function downloadJSON() {
       const blob = new Blob([JSON.stringify(currentData, null, 2)], { type: 'application/json' });
       const link = document.createElement('a');
@@ -249,15 +298,16 @@ button:hover p::before, button.active p::before {
       link.download = currentFile;
       link.click();
     }
-  
+
     function sortByStock() {
       currentData.sort((a, b) => b.stock - a.stock);
       renderInventory();
     }
-  
+
     // Load initial file
     loadStock('amigurumi.json');
   </script>
-  
+
 </body>
+
 </html>
