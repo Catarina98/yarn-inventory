@@ -14,6 +14,8 @@ const collections = {
 const byId = id => document.getElementById(id);
 const inventory = byId('inventory');
 const statusMessage = byId('status');
+const searchInput = byId('inventory-search');
+const searchMessage = byId('search-message');
 const sort = byId('sort');
 const account = byId('account');
 const loginDialog = byId('login-dialog');
@@ -111,10 +113,24 @@ async function loadCollection(key, message = '') {
   }
 }
 
+function normalizeSearch(value) {
+  return value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+}
+
 function render() {
-  sort.disabled = !items.length;
+  const query = normalizeSearch(searchInput.value);
+  const visibleItems = query
+    ? items.filter(item =>
+        normalizeSearch(item.name).includes(query)
+        || normalizeSearch(String(item.color_code ?? '')).includes(query))
+    : [...items];
+  if (sorted) visibleItems.sort((a, b) => b.stock - a.stock);
+
+  sort.disabled = !visibleItems.length;
+  searchMessage.textContent = query && items.length && !visibleItems.length
+    ? 'Nenhuma cor encontrada nesta linha.'
+    : '';
   inventory.replaceChildren();
-  const visibleItems = sorted ? [...items].sort((a, b) => b.stock - a.stock) : items;
 
   for (const item of visibleItems) {
     const card = document.createElement('article');
@@ -162,6 +178,8 @@ function render() {
     inventory.append(card);
   }
 }
+
+searchInput.addEventListener('input', render);
 
 sort.addEventListener('click', () => {
   sorted = !sorted;

@@ -12,6 +12,7 @@
     .toolbar, .collections { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
     .collections { border-bottom: 2px solid #ede8e8; padding-bottom: 0.5rem; }
     .collections button[aria-pressed="true"] { border-color: #9a3535; background: #f8e7e7; }
+    .inventory-search { max-width: 28rem; margin-bottom: 1rem; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 9rem), 1fr)); gap: 1rem; }
     .yarn-card {
       border: 1px solid #ddd;
@@ -34,7 +35,7 @@
   </style>
   <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0"></script>
   <script defer src="./supabase-config.js"></script>
-  <script defer src="./inventory.js"></script>
+  <script defer src="./inventory.js?v=2"></script>
 </head>
 <body>
   <h1>🧶 Yarn Inventory</h1>
@@ -43,7 +44,12 @@
     <button id="account" type="button" hidden>Entrar para editar</button>
   </div>
   <nav id="collections" class="collections" aria-label="Linhas"></nav>
+  <label class="inventory-search" for="inventory-search">
+    Pesquisar nesta linha
+    <input id="inventory-search" type="search" placeholder="Nome ou código da cor">
+  </label>
   <p id="status" role="status"></p>
+  <p id="search-message" role="status"></p>
   <div id="inventory" class="grid"></div>
 
   <dialog id="login-dialog" aria-labelledby="login-title">
