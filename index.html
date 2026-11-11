@@ -1,313 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-PT">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yarn Inventory</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 2em;
-    }
-
-    .buttons {
-      margin-bottom: 1em;
-      display: flex;
-      border-bottom: 2px solid #ede8e8;
-    }
-
-    .buttons button {
-      margin-right: 10px;
-      padding: 8px 16px;
-    }
-
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
+    body { font-family: sans-serif; margin: 1rem; color: #222; }
+    h1 { text-align: center; }
+    button, input { font: inherit; }
+    button { cursor: pointer; padding: 0.5rem 0.75rem; min-height: 44px; }
+    .toolbar, .collections { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+    .collections { border-bottom: 2px solid #ede8e8; padding-bottom: 0.5rem; }
+    .collections button[aria-pressed="true"] { border-color: #9a3535; background: #f8e7e7; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 9rem), 1fr)); gap: 1rem; }
     .yarn-card {
-      width: 150px;
       border: 1px solid #ddd;
-      padding: 10px;
+      padding: 0.625rem;
       text-align: center;
       border-radius: 8px;
-    }
-
-    .yarn-card img {
-      width: 100%;
-      border-radius: 6px;
-    }
-
-    .stock {
-      margin-top: 8px;
-      font-weight: bold;
-    }
-
-    h1 {
-      text-align: center;
-    }
-
-    /* From Uiverse.io by satyamchaudharydev */
-    button {
-      padding: 0;
-      margin: 0;
-      border: none;
-      background: none;
-      cursor: pointer;
-    }
-
-    button {
-      --primary-color: #111;
-      --hovered-color: #c84747;
-      position: relative;
-      display: flex;
-      font-weight: 600;
-      font-size: 20px;
+      display: grid;
+      align-content: start;
       gap: 0.5rem;
-      align-items: center;
     }
-
-    button p {
-      margin: 0;
-      position: relative;
-      font-size: 20px;
-      color: var(--primary-color);
-    }
-
-    button::after {
-      position: absolute;
-      content: "";
-      width: 0;
-      left: 0;
-      bottom: -2px;
-      background: var(--hovered-color);
-      height: 2px;
-      transition: 0.3s ease-out;
-    }
-
-    button p::before {
-      position: absolute;
-      /*   box-sizing: border-box; */
-      content: "Subscribe";
-      width: 0%;
-      inset: 0;
-      color: var(--hovered-color);
-      overflow: hidden;
-      transition: 0.3s ease-out;
-    }
-
-    button:hover::after,
-    button.active::after {
-      width: 100%;
-    }
-
-    button:hover p::before,
-    button.active p::before {
-      width: 100%;
-    }
-
-    .edit-buttons {
-      margin-top: 1em;
-      display: flex;
-      justify-content: end;
-      gap: 20px;
-    }
-
-
-    /* Add styles for no-stock class */
-    .no-stock {
-      opacity: 0.5;
-      background-color: #f8d7da;
-    }
+    .yarn-card img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 6px; }
+    .stock { font-weight: bold; }
+    .no-stock { background-color: #f8e7e7; }
+    dialog { width: min(24rem, calc(100% - 4rem)); border: 1px solid #ddd; border-radius: 8px; }
+    dialog::backdrop { background: #0006; }
+    form, label { display: grid; gap: 0.5rem; }
+    input { box-sizing: border-box; width: 100%; padding: 0.5rem; }
+    .dialog-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    [role="status"]:empty { display: none; }
   </style>
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0"></script>
+  <script defer src="./supabase-config.js"></script>
+  <script defer src="./inventory.js"></script>
 </head>
-
 <body>
-
   <h1>🧶 Yarn Inventory</h1>
-
-  <div class="buttons">
-    <button onclick="loadStock('amigurumi.json')">Amigurumi</button>
-    <button onclick="loadStock('amigurumi-brilho.json')">Amigurumi Brilho</button>
-    <button onclick="loadStock('barroco.json')">Barroco</button>
-    <button onclick="loadStock('anne.json')">Anne</button>
-    <button onclick="loadStock('clea.json')">Clea</button>
-    <button onclick="loadStock('clea-duplo.json')">Clea Duplo</button>
-    <button onclick="loadStock('charme.json')">Charme</button>
-    <button onclick="loadStock('encanto.json')">Encanto</button>
-    <button onclick="loadStock('encanto-slim.json')">Encanto Slim</button>
-
-    <!-- Add more as needed -->
+  <div class="toolbar">
+    <button id="sort" type="button" aria-pressed="false" disabled>Ordenar por stock</button>
+    <button id="account" type="button" hidden>Entrar para editar</button>
   </div>
-
+  <nav id="collections" class="collections" aria-label="Linhas"></nav>
+  <p id="status" role="status"></p>
   <div id="inventory" class="grid"></div>
 
-  <div class="edit-buttons">
-    <button onclick="sortByStock()">📊 Sort by Stock</button>
-    <button id="edit-btn" onclick="toggleEdit()">✏️ Edit Stock</button>
-    <button id="download-btn" onclick="downloadJSON()" style="display: none;">💾 Download Updated JSON</button>
-  </div>
+  <dialog id="login-dialog" aria-labelledby="login-title">
+    <form id="login-form">
+      <h2 id="login-title">Entrar para editar</h2>
+      <label>Email <input type="email" name="email" autocomplete="username" required></label>
+      <label>Palavra-passe <input type="password" name="password" autocomplete="current-password" required></label>
+      <p id="login-message" role="status"></p>
+      <div class="dialog-actions">
+        <button type="submit">Entrar</button>
+        <button type="button" data-close>Cancelar</button>
+      </div>
+    </form>
+  </dialog>
 
-  <script>
-    let currentData = [];
-    let currentFile = '';
-    let editMode = false;
-
-    function setActiveButton(file) {
-      const buttons = document.querySelectorAll('.buttons button');
-      buttons.forEach(async (btn) => {
-        btn.classList.remove('active');
-        if (btn.getAttribute('onclick').includes(file)) {
-          btn.classList.add('active');
-          const stockInfo = await getStockInfo(file);
-          btn.textContent = `${btn.textContent.split(' ')[0]} (${stockInfo.inStock}/${stockInfo.total})`;
-        }
-      });
-    }
-
-    async function getStockInfo(file) {
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-        const inStock = data.filter(item => item.stock > 0).length;
-        const total = data.length;
-        return { inStock, total };
-      } catch (err) {
-        console.error('Failed to fetch stock info:', err);
-        return { inStock: 0, total: 0 };
-      }
-    }
-
-    async function loadStock(file) {
-      setActiveButton(file);
-
-      currentFile = file;
-      editMode = false;
-      toggleEditButton(false);
-
-      const container = document.getElementById('inventory');
-      container.innerHTML = 'Loading...';
-
-      try {
-        const response = await fetch(file);
-        const data = await response.json();
-
-        // Save the data globally
-        currentData = data;
-
-        renderInventory();
-      } catch (err) {
-        container.innerHTML = '❌ Failed to load stock.';
-        console.error(err);
-      }
-    }
-
-    function renderInventory() {
-      const container = document.getElementById('inventory');
-      container.innerHTML = '';
-
-      currentData.forEach((item, index) => {
-        const div = document.createElement('div');
-        div.className = 'yarn-card';
-        if (item.stock === 0) {
-          div.classList.add('no-stock');
-        }
-
-        let stockHTML = editMode
-          ? `<input type="number" min="0" value="${item.stock}" onchange="updateStock(${index}, this.value)">`
-          : `<div class="stock">Stock: ${item.stock}</div>`;
-
-        // Add a link only for the Amigurumi tab
-        let linkHTML = '';
-        if (item.colorCode !== undefined) {
-          let colorSearch = '';
-
-          switch (currentFile) {
-            case 'amigurumi.json':
-              colorSearch = `amigurumi+círculo`;
-              break;
-            case 'amigurumi-brilho.json':
-              colorSearch = `amigurumi+brilho+círculo`;
-              break;
-            case 'barroco.json':
-              colorSearch = `Barroco+Maxcolor+N.6+Círculo`;
-              break;
-            case 'clea-duplo.json':
-              colorSearch = `clea+duplo+círculo`;
-              break;
-            case 'charme.json':
-              colorSearch = `charme+círculo`;
-              break;
-            case 'encanto.json':
-              colorSearch = `encanto+círculo`;
-              break;
-            case 'encanto-slim.json':
-              colorSearch = `encanto+slim+círculo`;
-              break;
-            case 'anne.json':
-              colorSearch = `anne+círculo`;
-              break;
-            case 'clea.json':
-              colorSearch = `clea+círculo`;
-              break;
-            case 'clea-duplo.json':
-              colorSearch = `clea+duplo+círculo`;
-              break;
-            default:
-              colorSearch = '';
-          }
-
-          if (colorSearch !== '') {
-            linkHTML = `<a href="https://www.ateliedecroche.pt/search?q=${colorSearch}+${item.colorCode}" target="_blank">🔗 View Online</a>`;
-          }
-        }
-
-        div.innerHTML = `
-      <img src="${item.image}" alt="${item.name}">
-      <div>${item.name}</div>
-      ${stockHTML}
-      ${linkHTML}
-    `;
-        container.appendChild(div);
-      });
-
-      document.getElementById('download-btn').style.display = editMode ? 'inline-block' : 'none';
-    }
-
-    function toggleEdit() {
-      editMode = !editMode;
-      toggleEditButton(editMode);
-      renderInventory();
-    }
-
-    function toggleEditButton(state) {
-      const btn = document.getElementById('edit-btn');
-      btn.textContent = state ? '🔒 Exit Edit Mode' : '✏️ Edit Stock';
-    }
-
-    function updateStock(index, value) {
-      currentData[index].stock = parseInt(value, 10);
-    }
-
-    function downloadJSON() {
-      const blob = new Blob([JSON.stringify(currentData, null, 2)], { type: 'application/json' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = currentFile;
-      link.click();
-    }
-
-    function sortByStock() {
-      currentData.sort((a, b) => b.stock - a.stock);
-      renderInventory();
-    }
-
-    // Load initial file
-    loadStock('amigurumi.json');
-  </script>
-
+  <dialog id="stock-dialog" aria-labelledby="stock-title">
+    <form id="stock-form">
+      <h2 id="stock-title">Editar stock</h2>
+      <label>Quantidade <input type="text" name="quantity" inputmode="decimal" required></label>
+      <p id="stock-message" role="status"></p>
+      <div class="dialog-actions">
+        <button type="submit">Guardar</button>
+        <button type="button" data-close>Cancelar</button>
+      </div>
+    </form>
+  </dialog>
 </body>
-
 </html>
